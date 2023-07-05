@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/rippleeffect"
+    android:orientation="vertical"
+    android:padding="@dimen/_2sdp"
+
+    >
+
+    <RadioButton
+        android:id="@+id/radio_button"
+        android:layout_width="wrap_content"
+        android:text="Check"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/sfuidisplaybold"
+        android:layout_height="wrap_content"></RadioButton>
+
+
+
+
+
+
+</RelativeLayout>

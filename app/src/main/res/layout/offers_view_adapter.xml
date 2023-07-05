@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="@drawable/rippleeffect"
+    android:orientation="vertical"
+    android:padding="@dimen/_2sdp"
+
+    >
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID Proof Front"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#ABABAB"/>
+                <!--                            <ImageView-->
+                <!--                                android:id="@+id/edit_ph"-->
+                <!--                                android:layout_marginEnd="@dimen/_10sdp"-->
+                <!--                                android:layout_gravity="center"-->
+                <!--                                android:layout_marginStart="@dimen/_5sdp"-->
+                <!--                                android:background="@drawable/ic_profile_edit"-->
+                <!--                                android:layout_width="@dimen/_13sdp"-->
+                <!--                                android:layout_height="@dimen/_13sdp">-->
+
+                <!--                            </ImageView>-->
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/National_Card"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:text="National Card"
+                android:background="@color/transparentwhite"
+                android:textColor="#090909">
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardmoney_3"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/card_amount"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_12sdp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/id_proof_imageview1"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chatnewicon"
+                    android:layout_height="@dimen/_150sdp"></ImageView>
+
+                <TextView
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="@+id/id_proof_imageview1"
+                    android:id="@+id/status"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_14sdp"
+                    android:text=""
+                    android:background="#4758A6"
+                    android:textColor="@color/white"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID Proof Back"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#ABABAB"/>
+                <!--                            <ImageView-->
+                <!--                                android:id="@+id/edit_ph"-->
+                <!--                                android:layout_marginEnd="@dimen/_10sdp"-->
+                <!--                                android:layout_gravity="center"-->
+                <!--                                android:layout_marginStart="@dimen/_5sdp"-->
+                <!--                                android:background="@drawable/ic_profile_edit"-->
+                <!--                                android:layout_width="@dimen/_13sdp"-->
+                <!--                                android:layout_height="@dimen/_13sdp">-->
+
+                <!--                            </ImageView>-->
+
+            </LinearLayout>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/id_proof_imageview_back"
+                android:layout_width="@dimen/_200sdp"
+                android:src="@drawable/chatnewicon"
+                android:layout_height="@dimen/_200sdp"></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

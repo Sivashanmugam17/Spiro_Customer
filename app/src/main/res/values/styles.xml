@@ -1,0 +1,318 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorblack</item>
+        <item name="colorPrimaryDark">@color/colorblack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+
+    </style>
+    <style name="AppTheme1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorblack</item>
+        <item name="colorPrimaryDark">@color/colorblack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+
+    </style>
+
+    <style name="ColdStart" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/ll_win_bg_splash</item>
+    </style>
+    <style name="Theme_Dialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <!--<item name="android:fontFamily">@font/axiforma_regular</item>-->
+    <style name="AppThemess" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorgreenlight</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@color/colorblack</item>
+    </style>
+
+
+    <style name="AppThemes" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorblack</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimaryDark">@color/colorblack</item>
+
+        <item name="colorAccent">@color/colorblack</item>
+        <item name="android:windowBackground">@color/colorblack</item>
+    </style>
+
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorblack</item>
+        <item name="colorControlActivated">@color/gold_color</item>
+    </style>
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">#BAF814</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_banner</item>
+    </style>
+
+    <style name="welcome_page">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">100dp</item>
+        <item name="android:paddingBottom">30dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="text_subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/lifgtwhi</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <!-- Textview theme. -->
+    <style name="bigtextviewnormalsmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Textview theme. -->
+    <style name="alerttextviewtheme" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Textview theme. -->
+    <style name="bigtextviewnormalwhite" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Textview theme. -->
+    <style name="textviewnormalwhite" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Textview normal theme. -->
+    <style name="textviewnormal" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColorHint">@color/transparent_color</item>
+    </style>
+    <!-- Textview normal theme. -->
+    <style name="textviewnormals" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColorHint">@color/transparent_color</item>
+    </style>
+    <!-- Textview medium size black. -->
+    <style name="mediumtextsizeblack" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/transparent_color</item>
+    </style>
+
+    <style name="transpaerntSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <!-- Textview medium size light black. -->
+    <style name="mediumtextsizelightblack" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colordarkhint</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colordarkhint</item>
+    </style>
+    <style name="mediumtextsizelightwhite" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colordarkhint</item>
+    </style>
+
+    <!-- Edittext normal theme. -->
+    <style name="edittextviewnormaltext" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/dulllightblack</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/colordarkhint</item>
+    </style>
+
+<!--    <style name="GNowProgressBar" parent="SmoothProgressBar">-->
+<!--        <item name="spb_stroke_separator_length">5dp</item>-->
+<!--        <item name="spb_sections_count">2</item>-->
+<!--        <item name="spb_speed">1.7</item>-->
+<!--        <item name="spb_progressiveStart_speed">2</item>-->
+<!--        <item name="spb_progressiveStop_speed">3.4</item>-->
+<!--        <item name="spb_interpolator">spb_interpolator_acceleratedecelerate</item>-->
+<!--        <item name="spb_mirror_mode">true</item>-->
+<!--        <item name="spb_reversed">true</item>-->
+<!--        <item name="spb_colors">@array/gplus_colors</item>-->
+<!--        <item name="spb_progressiveStart_activated">true</item>-->
+<!--        <item name="spb_generate_background_with_colors">false</item>-->
+<!--    </style>-->
+
+<!--    <style name="GNowProgressBarnew" parent="SmoothProgressBar">-->
+<!--        <item name="spb_stroke_separator_length">5dp</item>-->
+<!--        <item name="spb_sections_count">2</item>-->
+<!--        <item name="spb_speed">1.7</item>-->
+<!--        <item name="spb_progressiveStart_speed">2</item>-->
+<!--        <item name="spb_progressiveStop_speed">3.4</item>-->
+<!--        <item name="spb_interpolator">spb_interpolator_acceleratedecelerate</item>-->
+<!--        <item name="spb_mirror_mode">true</item>-->
+<!--        <item name="spb_reversed">true</item>-->
+<!--        <item name="spb_colors">@array/gplus_colors_new</item>-->
+<!--        <item name="spb_progressiveStart_activated">true</item>-->
+<!--        <item name="spb_generate_background_with_colors">false</item>-->
+<!--    </style>-->
+
+
+    <!-- Textview theme. -->
+    <style name="commonheadingtextview" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Textview theme. -->
+    <style name="commonheadingtextviewlight" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colordarkhint</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Textview theme. -->
+    <style name="commonheadingtextviewwhite" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--        <item name="android:background">@color/white</item>-->
+    </style>
+    <style name="AppThem" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorwhite</item>
+        <item name="colorPrimaryDark">@color/colorwhite</item>
+        <item name="colorAccent">@color/colorwhite</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+
+    </style>
+    <style name="AppThembottom" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/transparent_color_new</item>
+        <item name="colorPrimaryDark">@color/transparent_color_new</item>
+        <item name="colorAccent">@color/transparent_color_new</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+
+    </style>
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="behavior_peekHeight">800dp</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:backgroundDimEnabled">true</item>
+    <item name="android:backgroundDimAmount">0.0</item>
+    </style>
+
+    <style name="dialogTheme" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

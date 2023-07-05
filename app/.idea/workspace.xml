@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f70e7eb2-0a26-44ab-93ff-108a996a15ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/acceptcallapi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/acceptcallapi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/acknowledgeapi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/acknowledgeapi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/commonapifetchservice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/commonapifetchservice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/CustomTextViewPackage/TextViewNormal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/CustomTextViewPackage/TextViewNormal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/EventBusConnection/IntentServiceRouteResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/EventBusConnection/IntentServiceRouteResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/FCM/MyFirebaseMessagingService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/FCM/MyFirebaseMessagingService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/SessionManagerPackage/SessionManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/SessionManagerPackage/SessionManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/VehicleDetailsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/VehicleDetailsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/documentpageoneViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/documentpageoneViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/documetpagetwoViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/documetpagetwoViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagefourViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagefourViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagetwoViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagetwoViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagewithotpthreeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagewithotpthreeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/splashpageViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/splashpageViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/stepthreeViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/unverfieddocumentViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRideRequest/RideRequestViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRideRequest/RideRequestViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/TrackingPageDataModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/TrackingPageDataModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/TrackingPageListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/TrackingPageListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/TrackingPageViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/TrackingPageViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/Trackingpagerepostiatry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/Trackingpagerepostiatry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/CustomTimerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/CustomTimerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/GpsStatusListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/Listener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/Listener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/LocationListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/LocationService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/LocationServiceListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/PermissionStatusListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/dashboardpagerepostiatry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/dashboardpagerepostiatry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/countrysectionedadapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/countrysectionedadapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/documentuploadtwoadapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/documentuploadtwoadapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/stopsModelAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/stopsModelAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/vechileselectionadapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/vechileselectionadapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/verficationsectionedadapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/commonutils/AppUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/commonutils/AppUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/data/steptwodocumentdb/documenttwoDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/data/steptwodocumentdb/documenttwoDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/data/steptwodocumentdb/documenttwoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/data/steptwodocumentdb/documenttwoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/GeoConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/GeoConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/GpsMyLocationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/GpsMyLocationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/MyLocationGoogleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/MyLocationGoogleMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/retrofit/RestrofitInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/retrofit/RestrofitInstance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/retrofit/RetrofitInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/retrofit/RetrofitInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/mianscreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/mianscreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/requestmianscreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/requestmianscreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/riderequestpage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/riderequestpage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/turnlocationonandintenet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/turnlocationonandintenet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/CountryCodeSelection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/CountryCodeSelection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/VehicleDetailsSelection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/VehicleDetailsSelection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documentpageone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documentpageone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documetpagetwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documetpagetwo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagefour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagefour.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpageone.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagewithotpthree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagewithotpthree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/splashpage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/splashpage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/stepthreedocument.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/unverfiedimageupload.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/anim/fade_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/anim/fade_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/anim/fade_out.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/anim/fade_out.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/circular.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/circular.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/curvebutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/curvebutton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_create_todo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/countrycodeselection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/countrycodeselection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/countryselectionadapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/countryselectionadapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/documentpageone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/documentpageone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/documentpagetwo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/documentpagetwo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/farelistadapterkotlin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/farelistadapterkotlin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/includechooseselection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/includechooseselection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/inclueregisterpagefour.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/locationonoffmissing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/locationonoffmissing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/maipagedesign.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/maipagedesign.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/otppagethree.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/otppagethree.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/registerpagefour.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/registerpagefour.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/registerpageone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/registerpagetwo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/registerpagetwo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/requestpage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/requestpage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/requestpagedfa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/requestpagedfa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/riderequestadapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/riderequestadapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/splashpage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/splashpage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/stepthreepage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/todo_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/todo_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/unverfiedimageupload.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/vehiclemodelselction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/vehiclemodelselction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/vehicleselectionadapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/vehicleselectionadapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/verficationadapter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/menu_save.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/raw/horn.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/xml/searchable.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/generated/source/buildConfig/debug/fr/castorflex/android/smoothprogressbar/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/generated/source/buildConfig/debug/fr/castorflex/android/smoothprogressbar/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/generated/source/buildConfig/release/fr/castorflex/android/smoothprogressbar/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/aapt_friendly_merged_manifests/release/processReleaseManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/annotation_processor_list/release/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/full_jar/release/createFullJarRelease/full.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merged.dir/values-v11/values-v11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merged.dir/values-v11/values-v11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v11/values-v11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/incremental/packageReleaseResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/intermediate-jars/release/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/intermediate-jars/release/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/ColorsShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/SmoothProgressBarUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable$Callbacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/library_manifest/release/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/merged_manifests/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/debug/values-v11/values-v11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/debug/values-v11/values-v11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/debug/values-v21/values-v21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/debug/values-v21/values-v21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/release/values-v11/values-v11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/release/values-v21/values-v21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/packaged_res/release/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/intermediates/symbols/release/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../loaderlibrary/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loaderlibrary/build/outputs/logs/manifest-merger-release-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/publish.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/androidTest/java/com/chaos/view/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/main/java/com/chaos/view/DefaultMovementMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/main/java/com/chaos/view/PinView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pinview/src/test/java/com/chaos/view/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slidetoact/src/main/java/com/ncorti/slidetoact/SlideToActView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../slidetoact/src/main/java/com/ncorti/slidetoact/SlideToActView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slidetoact/src/main/res/drawable/slidetoact_ic_check.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slidetoact/src/main/res/drawable/slidetoact_ic_check.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="42008555cee88473" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/CustomTimerTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+              <folding>
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#md5#0;class#RoosterConnection#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/AppCabily.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#42#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adapte</find>
+      <find>layoutd</find>
+      <find>earnings</find>
+      <find>snackbar</find>
+      <find>loader.visibilit</find>
+      <find>onSuccessorFailed</find>
+      <find>subsc</find>
+      <find>intent</find>
+      <find>otppage()</find>
+      <find>clickme</find>
+      <find>otppageintent</find>
+      <find>registerpagewithotpthree</find>
+      <find>otpwithstatus</find>
+      <find>new_tas</find>
+      <find>loadmeobserver</find>
+      <find>localelib</find>
+      <find>loca</find>
+      <find>local</find>
+      <find>center</find>
+      <find>com.google.android.material.floatingactionbutton.FloatingActionButton</find>
+      <find>DONE</find>
+      <find>btn_done</find>
+      <find>locationonoff</find>
+      <find>fore</find>
+      <find>getappinfohit</find>
+      <find>kotlinVersion</find>
+      <find>WelcomeCoordinatornew</find>
+      <find>xmpp_host_url</find>
+      <find>xmpp</find>
+      <find>mServiceName</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/res/drawable-hdpi/fullwhitecurve.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagefourViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/filterpopup.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/TripListener.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/tripdetailviewmodel.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/clickableInterface/tripdetailclick.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/TripsAdapter.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/retrofit/RestrofitInstance.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable-hdpi/redcurvedra.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/locationonoffmissing.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/earningdriverlayout.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/earningModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/CustomTextViewPackage/TextViewNormal.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/earninglistadapter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/fullridedetailsDataModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/values-ur/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values-ta/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/passengerpaidModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/FullTripDetailListener.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/pasengerpaidla.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/passengerpaidadapter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTrackingPage/fulldetailpageviewmodel.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/TripDetailfullrepostiatry.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/fulltripdetails.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/tripsadapter.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fulltripdetails.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/earningsadapter.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/documentpageone.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documentpageone.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/tripdetails.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagetwoViewModel.kt" />
+        <option value="$PROJECT_DIR$/../build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/AppCabily.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/localefolder/LocaleHelperDelegates.kt" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/registerpagetwo.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/otppagethree.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagewithotpthree.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/requestmianscreen.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/duplicaterideidservice.kt" />
+        <option value="$PROJECT_DIR$/../dependencies.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnectionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/commonapifetchservice.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/SessionManagerPackage/SessionManager.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="width" value="1371" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CabilyLatestDriverKotlinMvvM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CabilyLatestDriverKotlinMvvM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CabilyLatestDriverKotlinMvvM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CabilyLatestDriverKotlinMvvM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CabilyLatestDriverKotlinMvvM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CabilyLatestDriverKotlinMvvM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_a105f-RZ8M3249X6Y" />
+    <property name="DEBUGGABLE_PROCESS" value="cabily.handyforall.dinedoo" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.cabilyhandyforalldinedoo.chd.ViewModelTrackingPage" />
+      <recent name="com.cabilyhandyforalldinedoo.chd.ViewModelTripDetail" />
+      <recent name="com.cabilyhandyforalldinedoo.chd.clickableInterface" />
+      <recent name="com.cabilyhandyforalldinedoo.chd.ui.sidemenus" />
+      <recent name="com.cabilyhandyforalldinedoo.chd.adaptersofchd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Cabily Enterprise\CabilyLatestDriverKotlinMvvM\app\src\main\java\com\cabilyhandyforalldinedoo\chd\xmpp" />
+      <recent name="E:\Cabily Enterprise\CabilyLatestDriverKotlinMvvM\app\src\main\java\com\cabilyhandyforalldinedoo\chd\localefolder" />
+      <recent name="E:\Cabily Enterprise\CabilyLatestDriverKotlinMvvM\app\src\main\java\com\cabilyhandyforalldinedoo\chd\adaptersofchd" />
+      <recent name="E:\Cabily Enterprise\CabilyLatestDriverKotlinMvvM\app\src\main\res\drawable-hdpi" />
+      <recent name="E:\Cabily Enterprise\CabilyLatestDriverKotlinMvvM\app\src\main\res" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CabilyLatestDriverKotlinMvvM-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="CabilyLatestDriverKotlinMvvM-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="true" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f70e7eb2-0a26-44ab-93ff-108a996a15ce" name="Default Changelist" comment="" />
+      <created>1580991760855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580991760855</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49930653" visible="true" weight="0.32969153" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" sideWeight="0.5006935" side_tool="true" weight="0.32969153" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32871014" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.8363384" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32871014" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32871014" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.55062413" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32871014" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.3303342" />
+      <window_info anchor="right" id="Android WiFi ADB" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32969153" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.51295334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32901555" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3293011" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32969153" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Android WiFi ADB" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32969153" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/requestmianscreen.kt</url>
+          <line>369</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/MainViewModel.kt</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documetpagetwo.kt</url>
+          <line>404</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/requestmianscreen.kt</url>
+          <line>582</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/TripDetailfullrepostiatry.kt</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/TripDetailfullrepostiatry.kt</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/TripDetailfullrepostiatry.kt</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/TripDetailfullrepostiatry.kt</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/tripdetails.kt</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/tripdetails.kt</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/tripdetails.kt</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagetwoViewModel.kt</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/splashpage.kt</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/splashpage.kt</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/commonapifetchservice.kt</url>
+          <line>1212</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>datediffernce(fromdate!!.text.toString(),it)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../imagecompress/src/main/java/com/developers/imagezipper/ImageZipper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/tripdetailspage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="121" column="54" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="121" selection-end-column="54" />
+          <folding>
+            <element signature="e#2638#3288#0" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/tripsadapter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding>
+            <element signature="e#1805#1820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/TripsAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="53" column="71" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/adaptersofchd/EarningsAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/earningsadapter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+          <folding>
+            <element signature="e#3911#3926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/registerpagefour.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="704" column="35" lean-forward="true" selection-start-line="676" selection-start-column="18" selection-end-line="704" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagefour.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/fulltripdetails.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/documentpageone.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fulltripdetails.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/tripdetailviewmodel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelTripDetail/Trippagerepostiatry.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="e#1236#1284#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="548" column="31" selection-start-line="548" selection-start-column="18" selection-end-line="548" selection-end-column="31" />
+          <folding>
+            <element signature="e#4570#10306#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/sidemenus/tripdetails.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#2802#2828#1" expanded="true" />
+            <element signature="e#2829#2862#1" expanded="true" />
+            <element signature="e#3012#3038#1" expanded="true" />
+            <element signature="e#3039#3072#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/documentpageone.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="611" column="2" selection-start-line="611" selection-start-column="2" selection-end-line="627" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zeugmasolutions.localehelper/locale-helper-android/1.0.2/70fe025a0e37c0b9d18dee87c641c3650f084ea0/locale-helper-android-1.0.2-sources.jar!/com/zeugmasolutions/localehelper/LocaleHelperDelegates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/localefolder/Locales.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/localefolder/LocaleHelperActivities.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/localefolder/LocaleHelper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/LocaleAwareCompatActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/settingspage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="193" column="16" lean-forward="true" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelRegisterModule/registerpagetwoViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="e#1413#1460#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagetwo.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="144" column="4" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
+          <folding>
+            <element signature="e#1559#2065#0" />
+            <element signature="e#1963#2059#2" />
+            <element signature="e#2102#3914#0" />
+            <element signature="e#2324#2385#2" />
+            <element signature="e#2456#2506#2" />
+            <element signature="e#2567#2970#2" />
+            <element signature="e#2605#2960#1" />
+            <element signature="e#2746#2946#1" />
+            <element signature="e#3039#3195#2" />
+            <element signature="e#3077#3185#1" />
+            <element signature="e#3267#3338#2" />
+            <element signature="e#3422#3584#2" />
+            <element signature="e#3657#3778#2" />
+            <element signature="e#3849#3907#2" />
+            <element signature="e#3949#4933#0" />
+            <element signature="e#4020#4926#0" />
+            <element signature="e#4079#4094#0" />
+            <element signature="e#4184#4199#0" />
+            <element signature="e#4285#4916#0" />
+            <element signature="e#4344#4490#1" />
+            <element signature="e#4548#4696#1" />
+            <element signature="e#4758#4902#1" />
+            <element signature="e#4967#5123#0" />
+            <element signature="e#5212#5434#0" />
+            <element signature="e#5268#5428#1" />
+            <element signature="e#5490#5858#0" />
+            <element signature="e#6017#6488#0" />
+            <element signature="e#6264#6482#1" />
+            <element signature="e#6521#6645#0" />
+            <element signature="e#6679#6835#0" />
+            <element signature="e#6893#8207#0" />
+            <element signature="e#7478#7654#2" />
+            <element signature="e#7695#7869#2" />
+            <element signature="e#7909#8082#2" />
+            <element signature="e#8119#8169#2" />
+            <element signature="e#8291#8605#0" />
+            <element signature="e#9258#9482#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/registerpagetwo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="271" column="55" lean-forward="true" selection-start-line="256" selection-end-line="271" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/otppagethree.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="289" column="44" selection-start-line="289" selection-start-column="44" selection-end-line="289" selection-end-column="44" />
+          <folding>
+            <element signature="e#11530#11545#0" expanded="true" />
+            <element signature="e#11588#11603#0" expanded="true" />
+            <element signature="e#11887#11902#0" expanded="true" />
+            <element signature="e#12160#12175#0" expanded="true" />
+            <element signature="e#12221#12236#0" expanded="true" />
+            <element signature="e#12283#12298#0" expanded="true" />
+            <element signature="e#14029#14044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/registerpagewithotpthree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#2145#2649#0" />
+            <element signature="e#2524#2564#2" />
+            <element signature="e#2603#2643#2" />
+            <element signature="e#2683#3565#0" />
+            <element signature="e#2742#3446#1" />
+            <element signature="e#3468#3511#1" />
+            <element signature="e#3602#3775#0" />
+            <element signature="e#3812#5271#0" />
+            <element signature="e#4084#4206#2" />
+            <element signature="e#4276#4342#2" />
+            <element signature="e#4409#4525#2" />
+            <element signature="e#4592#4716#2" />
+            <element signature="e#4778#4982#2" />
+            <element signature="e#4832#4972#1" />
+            <element signature="e#5056#5264#2" />
+            <element signature="e#5306#9664#0" />
+            <element signature="e#5365#5811#0" />
+            <element signature="e#5424#5594#0" />
+            <element signature="e#5481#5580#1" />
+            <element signature="e#5684#5699#0" />
+            <element signature="e#5785#5801#0" />
+            <element signature="e#5870#6520#0" />
+            <element signature="e#5929#6304#0" />
+            <element signature="e#6097#6253#1" />
+            <element signature="e#6394#6409#0" />
+            <element signature="e#6495#6510#0" />
+            <element signature="e#6579#7220#0" />
+            <element signature="e#6638#7004#0" />
+            <element signature="e#6694#6753#1" />
+            <element signature="e#6842#6954#1" />
+            <element signature="e#7094#7109#0" />
+            <element signature="e#7195#7210#0" />
+            <element signature="e#7279#7921#0" />
+            <element signature="e#7338#7705#0" />
+            <element signature="e#7394#7453#1" />
+            <element signature="e#7542#7654#1" />
+            <element signature="e#7795#7810#0" />
+            <element signature="e#7896#7911#0" />
+            <element signature="e#7980#8586#0" />
+            <element signature="e#8039#8370#0" />
+            <element signature="e#8207#8319#1" />
+            <element signature="e#8460#8475#0" />
+            <element signature="e#8561#8576#0" />
+            <element signature="e#8645#9244#0" />
+            <element signature="e#8704#9027#0" />
+            <element signature="e#8760#8819#1" />
+            <element signature="e#8908#8976#1" />
+            <element signature="e#9117#9132#0" />
+            <element signature="e#9218#9234#0" />
+            <element signature="e#9285#9658#2" />
+            <element signature="e#9363#9605#1" />
+            <element signature="e#9468#9563#1" />
+            <element signature="e#9611#9648#1" />
+            <element signature="e#9696#9730#0" />
+            <element signature="e#9764#10061#0" />
+            <element signature="e#10091#10348#0" />
+            <element signature="e#10381#10666#0" />
+            <element signature="e#10696#11339#0" />
+            <element signature="e#10827#11023#1" />
+            <element signature="e#10883#10953#1" />
+            <element signature="e#10975#11017#1" />
+            <element signature="e#11062#11189#1" />
+            <element signature="e#11203#11333#1" />
+            <element signature="e#11446#12050#0" />
+            <element signature="e#11684#11822#1" />
+            <element signature="e#11741#11812#1" />
+            <element signature="e#11902#12044#1" />
+            <element signature="e#11959#12034#1" />
+            <element signature="e#12082#12161#0" />
+            <element signature="e#12194#12272#0" />
+            <element signature="e#12306#12480#0" />
+            <element signature="e#12416#12474#1" />
+            <element signature="e#12510#13409#0" />
+            <element signature="e#12546#12604#1" />
+            <element signature="e#12657#13361#0" />
+            <element signature="e#12730#13173#0" />
+            <element signature="e#13222#13351#0" />
+            <element signature="e#13441#13869#0" />
+            <element signature="e#13953#14267#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/MyLocationConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/mylocation/MyLocationGoogleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="158" column="11" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/locationonoffmissing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/adjusclockdateandtime.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#54#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/turnlocationonandintenet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="56" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+          <folding>
+            <element signature="e#54#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/localefolder/LocaleHelperDelegates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/requestmianscreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="80" column="44" lean-forward="true" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/registeration/splashpage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="98" column="59" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/FCM/MyFirebaseMessagingService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="162" column="48" selection-start-line="162" selection-start-column="48" selection-end-line="162" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="133" column="60" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/duplicaterideidservice.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="69" column="61" lean-forward="true" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ui/MainPage/mianscreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="781" column="51" selection-start-line="781" selection-start-column="51" selection-end-line="781" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/CustomTimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/SessionManagerPackage/SessionManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="221" column="55" selection-start-line="221" selection-start-column="43" selection-end-line="221" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/Backgroundservices/commonapifetchservice.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1197" selection-start-line="1197" selection-end-line="1197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/xmpp/RoosterConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#md5#0;class#RoosterConnection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk_new/sources/android-28/android/app/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="592" column="22" selection-start-line="592" selection-start-column="22" selection-end-line="592" selection-end-column="22" />
+          <folding>
+            <element signature="e#28394#28395#0" expanded="true" />
+            <element signature="e#28422#28423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/ViewModelWIthRepositaryMain/UpdateLocationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabilyhandyforalldinedoo/chd/AppCabily.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#42#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

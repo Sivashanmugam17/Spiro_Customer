@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/wallet_lay"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/progress_lay_wallet"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/_16sdp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress_time_faq"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorgreenlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/_4sdp"
+            />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/headerLAY"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@drawable/newbackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:padding="@dimen/_11sdp"
+            android:src="@drawable/backbuttonwhite" />
+
+        <TextView
+            android:id="@+id/title_document"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Pre_Booking"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp" />
+
+        <TextView
+            android:id="@+id/appversionwallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_11sdp"
+            android:text="version"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLAY"
+        android:layout_above="@+id/addmoneybutton">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_amount"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:cardCornerRadius="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@drawable/sidemenubackground"
+            android:layout_height="@dimen/_110sdp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="@string/Your_Pre_Booking_Amount" />
+
+                <TextView
+                    android:id="@+id/walletamount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_21sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_payment"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/Recenttextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recent Transactions"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/history" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardmoney_31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_amount"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:visibility="visible"
+                app:cardCornerRadius="@dimen/_12sdp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:id="@+id/addmoneytex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Add_money_to_wallet"
+                            android:textColor="@color/colorblack"
+                            android:textSize="@dimen/_14sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/defaultamount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintTop_toBottomOf="@+id/addmoneytex">
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:background="@drawable/buttontextviewbackground"
+                            android:paddingHorizontal="@dimen/_16sdp"
+                            android:text=""
+                            android:textColor="@color/colorgreenlight" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_20sdp"
+                            android:background="@drawable/buttontextviewbackground"
+                            android:paddingHorizontal="@dimen/_16sdp"
+                            android:text=""
+                            android:textColor="@color/colorgreenlight" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_25sdp"
+                            android:background="@drawable/buttontextviewbackground"
+                            android:paddingHorizontal="@dimen/_16sdp"
+                            android:text=""
+                            android:textColor="@color/colorgreenlight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintTop_toBottomOf="@+id/defaultamount">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_weight="2" />
+
+                        <EditText
+                            android:id="@+id/enteramount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/rectangleash"
+                            android:fontFamily="@font/sfuidisplaysemibold"
+                            android:gravity="center"
+                            android:hint="@string/Enter_the_amount"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:padding="@dimen/_8sdp"
+                            android:textColor="@color/black"></EditText>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_weight="2" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/transaction"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cardmoney_31"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_12sdp"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/Recent_lay"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/Recenttextviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:fontFamily="@font/sfuidisplaybold"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/Recent_Transactions" />
+
+                <TextView
+                    android:id="@+id/viewalltextviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:fontFamily="@font/sfuidisplaysemibold"
+                    android:text="@string/View_all"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/transactionlist"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_below="@+id/Recent_lay"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp" />
+
+            <LinearLayout
+                android:id="@+id/placesearchlinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginStart="@dimen/_1sdp"
+
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:background="@color/colorwhite"
+                android:foreground="@drawable/rippleeffect"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/getway"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:text="txn id 24014254425422502512122"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txn_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sfuidisplayregular"
+                        android:text="09-June-2022"
+                        android:textColor="@color/track_grey_bg_curve"
+                        android:textSize="@dimen/_10sdp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txn_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:padding="@dimen/_5sdp"
+                        android:text="XFO 200"
+                        android:textColor="@color/colorgreen"
+                        android:textSize="@dimen/_11sdp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/getway_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:text="5525"
+                        android:textColor="@color/colorgreenlight"
+                        android:textSize="@dimen/_14sdp"
+                        android:visibility="gone">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/placesearchlinears"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_below="@+id/placesearchlinear"
+
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:background="@color/colorwhite"
+                android:foreground="@drawable/rippleeffect"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/getways"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:text="txn id 24014254425422502512122"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txn_dates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sfuidisplayregular"
+                        android:text="09-June-2022"
+                        android:textColor="@color/track_grey_bg_curve"
+                        android:textSize="@dimen/_10sdp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txn_amounts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:padding="@dimen/_5sdp"
+                        android:text="XFO 100"
+                        android:textColor="@color/colorgreen"
+                        android:textSize="@dimen/_11sdp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/getway_types"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:text="5525"
+                        android:visibility="gone"
+                        android:textColor="@color/colorgreenlight"
+                        android:textSize="@dimen/_14sdp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/placesearchlinearss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:visibility="gone"
+
+                android:layout_below="@+id/placesearchlinears"
+
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:background="@color/colorwhite"
+                android:foreground="@drawable/rippleeffect"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/getwayss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:text="txn id 24014254425422502512122"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txn_datess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/sfuidisplayregular"
+                        android:text="09-June-2022"
+                        android:textColor="@color/track_grey_bg_curve"
+                        android:textSize="@dimen/_10sdp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txn_amountsss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:padding="@dimen/_5sdp"
+                        android:text="XFO 700"
+                        android:textColor="@color/colorgreen"
+                        android:textSize="@dimen/_11sdp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/getway_typesss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:text="5525"
+                        android:visibility="gone"
+                        android:textColor="@color/colorgreenlight"
+                        android:textSize="@dimen/_14sdp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nodata"
+                android:layout_width="wrap_content"
+                android:text="No Transaction Available"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_100sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@font/sfuidisplaybold"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content">
+            </TextView>
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/addcardConstrain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardmoney_31"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_10sdp"
+                android:visibility="gone">
+
+
+                <RadioButton
+                    android:id="@+id/dradioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:checked="true"
+                    android:text="Add with credit / debit card"
+                    android:textSize="@dimen/_12sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclercard"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/addcard"
+                    app:layout_constraintStart_toStartOf="@+id/dradioButton1"
+                    app:layout_constraintTop_toBottomOf="@+id/dradioButton1">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/addcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/rectangleash"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:text="add new"
+                    android:textColor="@color/colorblack"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/recyclercard" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/yourpaymenttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-4dp"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/Your_payment"
+                android:textColor="@color/lightblcak"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHistory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/card_amount"
+        android:visibility="gone">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_below="@+id/cardmoney_3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textColorHint="@color/colordarkhint"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:gravity="center_vertical">-->
+    <!--        <CheckBox-->
+    <!--            android:id="@+id/rb_paywithcard"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:button="@drawable/checkbox_rounded_border"-->
+    <!--            android:layout_margin="@dimen/_10sdp"/>-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_paywithcard"-->
+    <!--            android:layout_margin="@dimen/_10sdp"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:stateListAnimator="@null"-->
+    <!--            android:text="Add with credit / debit card"-->
+    <!--            android:textColor="@color/colorblack"-->
+    <!--            android:textSize="@dimen/_12sdp"-->
+    <!--            android:textStyle="bold"/>-->
+    <!--    </LinearLayout>-->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:layout_marginLeft="@dimen/_40sdp">-->
+
+    <!--        <androidx.recyclerview.widget.RecyclerView-->
+    <!--            android:id="@+id/payment_type_cardDetail_RCYLV"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@null"/>-->
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColorHint="@color/darkcolorblue"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:gravity="center_vertical">-->
+    <!--            <CheckBox-->
+    <!--                android:id="@+id/checkbox"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:button="@drawable/checkbox_rounded_border"-->
+    <!--                android:layout_margin="@dimen/_10sdp" />-->
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/bank_detail_lay"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="vertical"-->
+    <!--                android:layout_toEndOf="@+id/checkbox">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="1234"-->
+    <!--                        android:textColor="@color/colorblack"-->
+    <!--                        android:textSize="@dimen/_18sdp"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:inputType="textPassword"-->
+    <!--                        android:layout_gravity="center_vertical"/>-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="1234"-->
+    <!--                        android:textColor="@color/colorblack"-->
+    <!--                        android:textSize="@dimen/_18sdp"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:inputType="textPassword"-->
+    <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+    <!--                        android:layout_gravity="center_vertical"/>-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="1234"-->
+    <!--                        android:textColor="@color/colorblack"-->
+    <!--                        android:textSize="@dimen/_18sdp"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:inputType="textPassword"-->
+    <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+    <!--                        android:layout_gravity="center_vertical"/>-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="8542"-->
+    <!--                        android:textColor="@color/colorblack"-->
+    <!--                        android:textSize="@dimen/_13sdp"-->
+    <!--                        android:textStyle="bold"-->
+    <!--                        android:layout_marginStart="@dimen/_4sdp"-->
+    <!--                        android:layout_gravity="center_vertical"/>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal"-->
+    <!--                    android:gravity="center_vertical"-->
+    <!--                    android:layout_gravity="center_horizontal">-->
+
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="Master card - 06/23"-->
+    <!--                        android:textColor="@color/walkthrough_text_black"-->
+    <!--                        android:textSize="@dimen/_11sdp" />-->
+
+    <!--                    <ImageView-->
+    <!--                        android:layout_width="30dp"-->
+    <!--                        android:layout_height="25dp"-->
+    <!--                        android:layout_marginStart="5dp"-->
+    <!--                        android:background="@drawable/ic_master_card"/>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--            </LinearLayout>-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/Delete"-->
+    <!--                android:layout_toEndOf="@+id/bank_detail_lay"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="@dimen/_13sdp"-->
+    <!--                android:layout_alignParentEnd="true"-->
+    <!--                android:layout_marginEnd="@dimen/_10sdp"-->
+    <!--                android:gravity="end"-->
+    <!--                android:layout_centerVertical="true"-->
+    <!--                android:layout_gravity="center_horizontal"/>-->
+
+    <!--        </RelativeLayout>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/payment_type_add_new"-->
+    <!--            android:layout_marginTop="@dimen/_10sdp"-->
+    <!--            android:layout_marginBottom="@dimen/_10sdp"-->
+    <!--            android:layout_marginRight="@dimen/_15sdp"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:stateListAnimator="@null"-->
+    <!--            android:text="@string/add_new"-->
+    <!--            android:paddingHorizontal="@dimen/_20sdp"-->
+    <!--            android:paddingVertical="@dimen/_5sdp"-->
+    <!--            android:background="@drawable/black_rounded_border"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_13sdp" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content">-->
+
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/nointernetconnectionlay_2"
+        layout="@layout/nointernetconnection">
+    </include>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/addmoneybutton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorgreen"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/Add_Moneys"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/prebookingcancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorgreen"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Pre Booking Cancel"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

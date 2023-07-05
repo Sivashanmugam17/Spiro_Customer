@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rental_title_lay"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:layout_height="@dimen/_55sdp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/backbuttonwhite"
+            android:layout_marginStart="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/batery_low_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/BikeRetrievalTeam"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_top"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/rental_title_lay"-->
+<!--        android:src="@drawable/rental_top_image"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_bottom"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/iv_top"-->
+<!--        android:src="@drawable/rental_bottom_image"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/renral_call"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/ic_rental_call"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginBottom="@dimen/_10sdp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/rental_call_tv"/>-->
+
+    <TextView
+        android:id="@+id/rental_call_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#414141"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/nointernetconnectionlay_4"
+        layout="@layout/nointernetconnection">
+    </include>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

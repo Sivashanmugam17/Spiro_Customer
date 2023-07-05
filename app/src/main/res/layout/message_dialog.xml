@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_200sdp"
+    android:id="@+id/swap_lays"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_curved_light_white">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_curved_light_white">
+
+
+            <TextView
+                android:id="@+id/dates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sfuidisplayregular"
+                android:gravity="center"
+                android:text="message"
+                android:textColor="@color/grey_new"
+                android:textSize="@dimen/_16sdp" />
+
+
+
+
+            <View
+                android:id="@+id/view_profileview1_edit_button_remove_payment"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/dates"
+                android:layout_marginTop="10dp"
+                android:background="#cdcdcd"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:id="@+id/custom_dialog_library_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/view_profileview1_edit_button_remove_payment"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp">
+
+                <LinearLayout
+                    android:id="@+id/nextlayout_news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:id="@+id/next_new_button"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoncurvedbackground"
+                        android:fontFamily="@font/sfuidisplaybold"
+                        android:text="Ok"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18sdp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- <android.support.v7.widget.CardView
+         android:layout_width="80dp"
+         app:cardBackgroundColor="@color/white_color"
+         android:layout_height="80dp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="10dp"
+         android:background="@color/white"
+         android:visibility="visible"
+         card_view:cardCornerRadius="19dp"
+         card_view:cardElevation="6dp"
+         card_view:cardPreventCornerOverlap="false">-->
+
+</RelativeLayout>

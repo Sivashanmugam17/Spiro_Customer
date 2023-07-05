@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/select_payment_lay"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_58sdp">
+
+        <ImageView
+            android:id="@+id/select_img"
+            android:layout_gravity="center"
+               android:layout_marginStart="@dimen/_10sdp"
+            android:background="@drawable/ic_unselect"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp">
+
+        </ImageView>
+
+
+<LinearLayout
+    android:layout_weight="0.5"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_gravity="start|center"
+            android:gravity="start|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/payment_type"
+            android:textColor="#2B2B2B"
+            android:textSize="@dimen/_15sdp"
+            android:text="Cash">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/payment_type_wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:background="@drawable/curve_wallet"
+            android:gravity="start|center"
+            android:padding="@dimen/_5sdp"
+            android:text="CFA 1000"
+            android:textColor="#2B2B2B"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/card_detalais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:gravity="start|center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/card_exp_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Mastercard - 06/23"
+            android:textColor="#818181"
+            android:textSize="@dimen/_12sdp"></TextView>
+        <!--        <ImageView-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginStart="@dimen/_5sdp"-->
+        <!--            android:background="@drawable/booking_card_ic"-->
+        <!--            android:layout_width="@dimen/_10sdp"-->
+        <!--            android:layout_height="@dimen/_10sdp">-->
+
+        <!--        </ImageView>-->
+    </LinearLayout>
+
+</LinearLayout>
+
+
+        <TextView
+            android:id="@+id/card_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_weight="0.4"
+            android:gravity="end"
+            android:text="delete"
+            android:visibility="gone">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+<View
+    android:background="@color/colordarkhint"
+    android:layout_width="match_parent"
+    android:layout_height="1dp">
+
+</View>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/tools"
+    android:id="@+id/fulllay"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_weight="2"
+        android:id="@+id/requestpagemap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/requestcard"
+        android:layout_alignParentBottom="true"
+        android:clipToPadding="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+<!--    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+<!--        android:id="@+id/loader"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_height="@dimen/_6sdp"-->
+<!--        style="@style/GNowProgressBar"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:indeterminate="true"/>-->
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/decline"
+        android:layout_width="match_parent"
+        android:background="@color/transparent_color"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:background="@drawable/textviewredbackground"
+                android:text="Reject" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:gravity="center|left"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/colorchange"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:src="@drawable/passenger_x_last_mile_map_components_high_availability_city_level_station_marker"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="start"
+        android:maxLines="5"
+        android:text="@string/loading"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colorblack"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swap_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:id="@+id/station_images1"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:scaleType="fitXY"
+
+            ></ImageView>
+
+    </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

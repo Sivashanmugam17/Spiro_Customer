@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="viewModel"
+            type="com.mauto.chd.viewmodelformobileupdate.UpdtemobileotpthreeViewModel"/>
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorwhite"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight="2"
+            android:layout_height="fill_parent">
+
+<!--            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+<!--                android:id="@+id/loader"-->
+<!--                android:visibility="invisible"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                style="@style/GNowProgressBar"-->
+<!--                android:indeterminate="true"/>-->
+
+            <LinearLayout
+                android:background="@color/colorwhite"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/_60sdp">
+
+                <ImageView
+                    android:onClick="@{() -> viewModel.closepage()}"
+                    android:id="@+id/close"
+                    android:src="@drawable/ic_arrow_back"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/_11sdp"
+                    android:tint="@android:color/black"
+                    android:layout_height="@dimen/_40sdp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_gravity="center|top"
+                android:gravity="center|top"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/bigtextviewnormalsmall"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/whatisthecode"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/senttovalue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/textviewnormal"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_gravity="center"
+                        android:gravity="center|left"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:hint="@string/sentto"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_gravity="center|left"
+                        android:gravity="center|left"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+
+                            android:id="@+id/numberclick"
+                            android:layout_width="fill_parent"
+                            android:layout_weight="2"
+                            android:weightSum="4"
+                            android:layout_gravity="center|left"
+                            android:gravity="center|left"
+                            android:layout_marginRight="@dimen/_25sdp"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+
+
+
+                            <EditText
+                                android:id="@+id/otp1"
+                                android:inputType="number"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                style="@style/textviewnormal"
+                                android:imeOptions="actionNext"
+                                android:maxLines="1"
+                                android:text=""
+                                android:gravity="center"
+                                android:maxLength="1"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:background="@drawable/curveslightdittext"
+                                android:layout_marginRight="10dp"
+
+                                />
+                            <EditText
+                                android:id="@+id/otp2"
+                                android:inputType="number"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                style="@style/textviewnormal"
+                                android:imeOptions="actionNext"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:background="@drawable/curveslightdittext"
+                                android:layout_marginRight="10dp"
+                                android:maxLines="1"
+                                android:maxLength="1"
+                                android:gravity="center"
+                                />
+                            <EditText
+                                android:id="@+id/otp3"
+                                android:inputType="number"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                style="@style/textviewnormal"
+                                android:imeOptions="actionNext"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:background="@drawable/curveslightdittext"
+                                android:layout_marginRight="10dp"
+                                android:maxLines="1"
+                                android:maxLength="1"
+                                android:gravity="center"
+
+                                />
+                            <EditText
+                                android:id="@+id/otp4"
+                                android:inputType="number"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                style="@style/textviewnormal"
+                                android:imeOptions="actionNext"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:background="@drawable/curveslightdittext"
+                                android:layout_marginRight="10dp"
+                                android:maxLines="1"
+                                android:maxLength="1"
+                                android:gravity="center"
+
+                                />
+
+                            <EditText
+                                android:id="@+id/otp5"
+                                android:inputType="number"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                style="@style/textviewnormal"
+                                android:imeOptions="actionNext"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:background="@drawable/curveslightdittext"
+                                android:layout_marginRight="10dp"
+                                android:maxLines="1"
+                                android:maxLength="1"
+                                android:gravity="center"
+
+                                />
+
+                            <EditText
+                                android:id="@+id/otp6"
+                                android:inputType="number"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                style="@style/textviewnormal"
+                                android:imeOptions="actionDone"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:background="@drawable/curveslightdittext"
+                                android:layout_marginRight="10dp"
+                                android:maxLines="1"
+                                android:maxLength="1"
+                                android:gravity="center"
+
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/resendlay"
+                        android:layout_width="fill_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/mediumtextsizeblack"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_gravity="center"
+                            android:gravity="center|left"
+                            android:text="@string/didnotreceive"
+                            />
+                        <TextView
+                            android:onClick="@{() -> viewModel.resendotpcall()}"
+                            android:id="@+id/resendcode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/mediumtextsizeblack"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/colorgreen"
+                            android:gravity="center|left"
+                            android:text="@string/resendcode"
+                            android:singleLine="false"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="@color/colorwhite"
+                        android:layout_width="fill_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <View
+                            android:layout_weight="2"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/_11sdp"
+                            android:layout_height="wrap_content" />
+                        <LinearLayout
+                            android:visibility="invisible"
+                            android:id="@+id/nextlayout"
+                            android:layout_marginRight="@dimen/_30sdp"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center|right"
+                            android:gravity="center"
+                            android:rotation="180"
+                            android:background="@null">
+
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/next"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:elevation="0dp"
+                                android:gravity="center"
+                                app:fabCustomSize="@dimen/_45sdp"
+                                app:borderWidth="0dp"
+                                app:elevation="0dp"
+                                android:tint="@android:color/white"
+                                app:backgroundTint="@color/colorgreen"
+                                android:src="@drawable/ic_arrow_back" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

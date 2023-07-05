@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="@dimen/_25sdp" />
+    <stroke
+        android:width="@dimen/_1sdp"
+        android:color="@color/track_page_pickup_notes_curve_bg" />
+    <solid android:color="@color/track_page_pickup_notes_curve_bg" />
+
+
+</shape>

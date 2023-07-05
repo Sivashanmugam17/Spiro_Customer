@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/rippleeffect"
+    android:orientation="vertical"
+    android:padding="@dimen/_2sdp"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/placesearchlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:background="@color/colorwhite"
+        android:foreground="@drawable/rippleeffect"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/getway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfuidisplaymedium"
+                android:text="ghuyuu"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txn_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfuidisplayregular"
+                android:text="ghuyuu"
+                android:textColor="@color/track_grey_bg_curve"
+                android:textSize="@dimen/_10sdp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txn_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfuidisplaymedium"
+                android:padding="@dimen/_5sdp"
+                android:text="5525"
+                android:textColor="@color/colorgreenlight"
+                android:textSize="@dimen/_11sdp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/getway_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfuidisplaymedium"
+                android:text="5525"
+                android:textColor="@color/colorgreenlight"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_lay"
+        android:layout_below="@+id/placesearchlinear"
+        android:layout_width="match_parent"
+        android:background="@color/lightasah"
+        android:layout_height="1dp">
+
+    </View>
+
+
+
+</RelativeLayout>

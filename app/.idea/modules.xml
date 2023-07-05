@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CabilyLatestDriverKotlinMvvM.iml" filepath="$PROJECT_DIR$/../CabilyLatestDriverKotlinMvvM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CabilyLatestDriverKotlinMvvM-app.iml" filepath="$PROJECT_DIR$/CabilyLatestDriverKotlinMvvM-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WelcomeCoordinator/WelcomeCoordinator.iml" filepath="$PROJECT_DIR$/../WelcomeCoordinator/WelcomeCoordinator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/app.iml" filepath="$PROJECT_DIR$/.idea/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imagecompress/imagecompress.iml" filepath="$PROJECT_DIR$/../imagecompress/imagecompress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kotin-networking/kotin-networking.iml" filepath="$PROJECT_DIR$/../kotin-networking/kotin-networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../loaderlibrary/loaderlibrary.iml" filepath="$PROJECT_DIR$/../loaderlibrary/loaderlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pageindicatorview/pageindicatorview.iml" filepath="$PROJECT_DIR$/../pageindicatorview/pageindicatorview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ripplebutton/ripplebutton.iml" filepath="$PROJECT_DIR$/../ripplebutton/ripplebutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slidetoact/slidetoact.iml" filepath="$PROJECT_DIR$/../slidetoact/slidetoact.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354464849359",
+    "project_id": "customer-c2a40",
+    "storage_bucket": "customer-c2a40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354464849359:android:acf72c9794970eda0346ba",
+        "android_client_info": {
+          "package_name": "com.mauto.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354464849359-lr4c5soamo3pq831jg7bmjkpfhm23edf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJqWtjM16J98DXO3zBDbPLUwpWT2E52vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354464849359-lr4c5soamo3pq831jg7bmjkpfhm23edf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MergeRootFrame"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="viewModel"
+            type="com.mauto.chd.earningsviewmodel.Viewmodelforearningsthree"/>
+    </data>
+
+
+
+
+    <LinearLayout
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:weightSum="2"
+        android:background="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:background="@color/colorwhite"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:weightSum="2"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center|top"
+                android:gravity="center|top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:background="@color/lightblcak"
+                    android:layout_height="@dimen/_55sdp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/closeall"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/ic_arrow_back"
+                        android:tint="@color/colorwhite"
+                        android:layout_gravity="center|left"
+                        android:gravity="center|left"
+                        ></ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:layout_gravity="center|left"
+                        android:gravity="center|left"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_weight="2"
+                        android:textColor="@color/colorwhite"
+                        android:text="@string/summarydetails"
+                        android:textSize="@dimen/_16sdp"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content"
+                    >
+<!--                    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+<!--                        android:id="@+id/loader"-->
+<!--                        android:visibility="gone"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        style="@style/GNowProgressBar"-->
+<!--                        android:indeterminate="true"/>-->
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="@dimen/_10sdp"
+                        card_view:cardUseCompatPadding="true"
+                        card_view:cardElevation="4dp"
+                        card_view:cardCornerRadius="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:weightSum="2"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/leftarrow"
+                                    android:padding="@dimen/_5sdp"
+                                    android:rotation="180"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="@dimen/_20sdp"
+                                    android:src="@drawable/next">
+
+                                </ImageView>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_weight="2"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:id="@+id/weeklyreport"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextview"
+                                    android:text="@string/loading"
+                                    />
+                                <TextView
+                                    android:id="@+id/weeklysummary"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextview"
+                                    android:text="@string/loading"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/netfare"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+                                <ImageView
+                                    android:id="@+id/rightarrow"
+                                    android:padding="@dimen/_5sdp"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="@dimen/_20sdp"
+                                    android:src="@drawable/next">
+
+                                </ImageView>
+
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        card_view:cardUseCompatPadding="true"
+                        card_view:cardElevation="4dp"
+                        card_view:cardCornerRadius="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_margin="@dimen/_10sdp"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+                            android:gravity="center|left"
+                            android:layout_gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/commonheadingtextview"
+                                android:text="@string/netfare"
+                                android:gravity="center|left"
+                                android:layout_gravity="center|left"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                style="@style/commonheadingtextview"
+                                android:text="@string/loading"
+                                />
+                        </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+                                android:gravity="center|left"
+                                android:layout_gravity="left"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_weight="2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/pertrip"
+                                    android:gravity="center|left"
+                                    android:layout_gravity="center|left"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/loading"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+                                android:gravity="center|left"
+                                android:layout_gravity="left"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_weight="2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/perhrtrip"
+                                    android:gravity="center|left"
+                                    android:layout_gravity="center|left"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/loading"
+                                    />
+                            </LinearLayout> <LinearLayout
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+                            android:gravity="center|left"
+                            android:layout_gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/commonheadingtextviewlight"
+                                android:text="@string/perdistancetrip"
+                                android:gravity="center|left"
+                                android:layout_gravity="center|left"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                style="@style/commonheadingtextviewlight"
+                                android:text="@string/loading"
+                                />
+                        </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        card_view:cardUseCompatPadding="true"
+                        card_view:cardElevation="4dp"
+                        card_view:cardCornerRadius="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_margin="@dimen/_10sdp"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+                                android:gravity="center|left"
+                                android:layout_gravity="left"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_weight="2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextview"
+                                    android:text="@string/trips_summary"
+                                    android:gravity="center|left"
+                                    android:layout_gravity="center|left"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    style="@style/commonheadingtextview"
+                                    android:text="@string/loading"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+                                android:gravity="center|left"
+                                android:layout_gravity="left"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_weight="2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/timeonline"
+                                    android:gravity="center|left"
+                                    android:layout_gravity="center|left"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/loading"
+                                    />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+                                android:gravity="center|left"
+                                android:layout_gravity="left"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_weight="2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/triphr"
+                                    android:gravity="center|left"
+                                    android:layout_gravity="center|left"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    style="@style/commonheadingtextviewlight"
+                                    android:text="@string/loading"
+                                    />
+                            </LinearLayout> <LinearLayout
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+                            android:gravity="center|left"
+                            android:layout_gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/commonheadingtextviewlight"
+                                android:text="@string/tripdistance"
+                                android:gravity="center|left"
+                                android:layout_gravity="center|left"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                style="@style/commonheadingtextviewlight"
+                                android:text="@string/loading"
+                                />
+                        </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        card_view:cardUseCompatPadding="true"
+                        card_view:cardElevation="4dp"
+                        card_view:cardCornerRadius="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_margin="@dimen/_10sdp"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+                                android:gravity="center|left"
+                                android:layout_gravity="left"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_weight="2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    style="@style/commonheadingtextview"
+                                    android:text="@string/ratingss"
+                                    android:gravity="center|left"
+                                    android:layout_gravity="center|left"
+                                    />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    style="@style/commonheadingtextview"
+                                    android:text="@string/loading"
+                                    />
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</layout>

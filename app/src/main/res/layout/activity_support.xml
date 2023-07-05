@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_spiro">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/batery_low_lay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/back_icons"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/batery_low_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Contact_Us"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/earnings_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:src="@drawable/ic_headset"
+        app:layout_constraintTop_toBottomOf="@+id/batery_low_lay" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/heading1"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        app:layout_constraintTop_toBottomOf="@+id/earnings_btn"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/spiro_helpandsupport">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_55sdp">
+
+    <TextView
+        android:id="@+id/bottomsheet_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:text="@string/Help_and_Support"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/newblack"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/earnings_btn" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/call_lay"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintTop_toBottomOf="@+id/heading1"
+        android:backgroundTint="@color/spiro_blue"
+        tools:ignore="NotSibling">
+
+        <ImageView
+            android:id="@+id/call_iv"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/spiro_cust_call"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/call_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/Call_Customer_Support"
+            android:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toEndOf="@+id/call_iv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/_14sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/_47sdp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:src="@drawable/ic_right_arrow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:tint="#84DABA" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/report_title_tv"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/sfuidisplaymedium"
+        android:text="@string/Report_an_issue"
+        android:textColor="#303030"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/call_lay" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/report_reason_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/report_title_tv"
+        android:background="@drawable/buttontextviewbackground">
+
+        <TextView
+            android:id="@+id/report_reason_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#414141"
+            android:fontFamily="@font/sfuidisplaymedium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/_14sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/_15sdp"/>
+
+        <Spinner
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:id="@+id/report_spinner"
+            android:layout_width="match_parent"
+            android:entries="@array/gender"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:spinnerMode="dropdown">
+        </Spinner>
+
+
+
+        <ImageView
+            android:id="@+id/report_spinnericon"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:src="@drawable/ic_down_arrow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:tint="#84DABA" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:visibility="gone"
+
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/backgroundsupport"
+        app:layout_constraintTop_toBottomOf="@+id/report_reason_lay"
+        tools:layout_editor_absoluteX="13dp">
+
+        <EditText
+            android:id="@+id/type_your_comment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@null"
+            android:gravity="start"
+            android:hint="@string/Type_Your_Comments"
+            android:textColor="@color/black"
+            android:textColorHint="#B7B7B7"
+            app:layout_constraintBottom_toTopOf="@+id/report_send"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="13dp" />
+
+        <TextView
+            android:id="@+id/report_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbackground"
+            android:gravity="center"
+            android:fontFamily="@font/sfuidisplaysemibold"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:text=""
+            android:textSize="@dimen/_14sdp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Email_lay"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@+id/call_lay"
+        android:backgroundTint="@color/spiro_blue">
+
+    <ImageView
+        android:id="@+id/email_click"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/spiro_mai_support"
+        app:layout_constraintTop_toBottomOf="@+id/call_lay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_10sdp">
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/report_mail_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginEnd="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_25sdp"
+            app:layout_constraintTop_toBottomOf="@+id/email_click"
+            android:text="@string/Send_email"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/report_mail_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#414141"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14sdp"
+        tools:ignore="MissingConstraints" />
+      <!--  app:layout_constraintTop_toBottomOf="@+id/report_mail_title_tv" -->
+        android:text="support.melectric@gmail.com"
+        tools:ignore="UnknownId" />
+    <include
+        android:visibility="gone"
+        android:id="@+id/nointernetconnectionlay"
+        layout="@layout/nointernetconnection">
+    </include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/appversionsupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="version"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

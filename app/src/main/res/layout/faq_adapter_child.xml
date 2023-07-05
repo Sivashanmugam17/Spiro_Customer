@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_inflate_child_list_item_LAY_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:padding="@dimen/_9sdp">
+
+        <RelativeLayout
+            android:id="@+id/layout_inflate_child_list_item_LAY_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/layout_inflate_child_list_item_TXT_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/layout_inflate_child_list_item_IMG_plus"
+                android:text="question"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp" />
+
+            <ImageView
+                android:id="@+id/layout_inflate_child_list_item_IMG_plus"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_plus" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/layout_inflate_child_list_item_TXT_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Answer"
+            android:textColor="#212121"
+            android:textSize="@dimen/_10sdp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#E4E4E4" />
+</LinearLayout>

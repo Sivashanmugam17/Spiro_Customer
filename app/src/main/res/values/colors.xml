@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="mapbluee">#4A553B</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorblack">#000000</color>
+    <color name="dulllightblack">#565555</color>
+    <color name="colorhint">#b4d9d9d9</color>
+    <color name="colorlightwhite">#b4e2e1e1</color>
+    <color name="colorlightash">#00000029</color>
+    <color name="colordarkhint">#e09f9d9d</color>
+    <color name="colordarkhint1">#404040</color>
+
+    <color name="colordarkash">#00000029</color>
+    <color name="lightasah">#E2E2E2</color>
+    <color name="lightshade">#00ffffff</color>
+    <color name="lifgtwhi">#ECECEC</color>
+    <color name="snowwhite">#FCFCFC</color>
+    <color name="lightblcak">#E1000000</color>
+    <color name="black">#000000</color>
+    <color name="darkblue">#3357FF</color>
+    <color name="newcolorgreen">#68BA41</color>
+    <color name="textgreen">#339B00</color>
+    <color name="textgrey">#585858</color>
+
+    <color name="colorgreen">#6CBC46</color>
+    <color name="colorgreen1">#34C47C</color>
+    <color name="colorgreendark">#005F4E</color>
+    <color name="colorgreenlight">#0AD7B0</color>
+    <color name="track_grey_bg_curve">#9ebebebe</color>
+    <color name="grey_new">#606060</color>
+    <color name="colorgreenlightnew">#048B72</color>
+    <color name="line_color">#F1F1F1</color>
+    <color name="app_color_prime">#048B72</color>
+    <color name="gray">#606060</color>
+    <color name="gray_light">#F1F1F1</color>
+
+    <!--Welcome Screen-->
+    <color name="white">#ffffffff</color>
+    <color name="newhite">#F2F2F2</color>
+    <color name="page1">#ff21B8AC</color>
+    <color name="page2">#ff218AB8</color>
+    <color name="page3">#ff21A5B8</color>
+    <color name="page4">#ff1F8B9B</color>
+    <color name="theme_gray">#ccced1</color>
+    <!--End Welcome Screen-->
+
+    <color name="rocket">#e55555</color>
+    <color name="avatar1">#e1f4f8</color>
+    <color name="avatar2">#c6b9e7</color>
+    <color name="avatar3">#f8e71d</color>
+    <color name="avatar4">#65aa01</color>
+    <color name="innergreen">#67e37e</color>
+    <color name="colorred">#ff0000</color>
+    <color name="avatar5">#4ee4c1</color>
+
+    <color name="innergreens">#242323</color>
+
+    <color name="colorblue">#3b5998</color>
+    <color name="darkcolorblue">#3A404D</color>
+    <color name="lighttransparent_color">#28BEBEBE</color>
+    <color name="transparent_color">#48000000</color>
+    <color name="transparent_color_new">#00000000</color>
+    <color name="colorsemihint">#9ebebebe</color>
+    <color name="colorsildarrvied">#004034</color>
+    <color name="transparentwhite">#00ffffff</color>
+    <color name="text_color_gray">#4a4a4a</color>
+    <color name="text_color_title_gray">#424d5e</color>
+    <color name="text_color_subtitle">#cd424d5e</color>
+    <color name="text_color_light">#424d5e</color>
+    <color name="locationcolor">#3b5998</color>
+    <color name="stepcolor">#26b855</color>
+    <color name="track_page_pickup_notes_curve_bg">#ececec</color>
+    <color name="track_page_driver_call_circle_bg">#F0F0F0</color>
+
+
+    <color name="transparent_black_loading">#4e000000</color>
+    <color name="gplus_color_1">#ffffff</color>
+    <color name="gplus_color_2">#ffffff</color>
+    <color name="gplus_color_3">#ffffff</color>
+    <color name="gplus_color_4">#ffffff</color>
+
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <integer-array name="gplus_colors_new">
+        <item>@color/colorgreen</item>
+        <item>@color/colorgreen</item>
+        <item>@color/colorgreen</item>
+        <item>@color/colorgreen</item>
+    </integer-array>
+
+    <color name="gradient_color">#ca123d</color>
+    <color name="gradient_color2">#ab621e</color>
+    <color name="orange">#ea6d14</color>
+    <color name="loader_color">#ea6d14</color>
+
+    <!--RideBookNowActivity-->
+    <color name="book_now_tv_text">#ffffff</color>
+    <color name="card_no_tv_text">#000000</color>
+    <color name="schedule_tv_text">#000000</color>
+
+    <!--book_change_category_adapter-->
+    <color name="book_change_category_adapter_tv_text">#ffffff</color>
+
+
+
+
+
+
+
+
+    <!--PaymentMethodsActivity-->
+    <!--<color name="payment_options_header_label_tv">#ffffff</color>-->
+    <color name="payment_methods_header_bg_view">#000000</color>
+    <color name="payment_methods_label_tv_tv">#e09f9d9d</color>
+    <color name="payment_methods_cl">#ffffff</color>
+    <color name="saved_cards_label">#e09f9d9d</color>
+
+    <!--PaymentMethodsRecyclerAdapter-->
+    <color name="payment_method_type_tv">#000000</color>
+    <color name="paymentmethods_recycleradapter_constraint">#00ffffff</color>
+    <color name="add_card_label_tv">#2DA25C</color>
+
+
+    <!--SavedCardsRecyclerAdapter-->
+    <color name="saved_card_number_tv">#000000</color>
+    <color name="savedcards_recycleradapter_constraint">#00ffffff</color>
+    <color name="card_list_bg_curve">#e0e0e0</color>
+
+    <!--AddNewCardActivity-->
+    <color name="card_number_et_bg_curve">#9ebebebe</color>
+    <color name="card_number_et_text">#000000</color>
+    <color name="card_number_et_hint">#e09f9d9d</color>
+    <color name="card_holder_name_text">#000000</color>
+    <color name="card_holder_name_hint">#e09f9d9d</color>
+    <color name="expiry_date_et_text">#000000</color>
+    <color name="expiry_date_et_hint">#e09f9d9d</color>
+    <color name="cvv_et_text">#000000</color>
+    <color name="cvv_et_hint">#e09f9d9d</color>
+    <color name="default_card_tv">#2DA25C</color>
+    <color name="add_card_sumbit_tv">#ffffff</color>
+    <color name="lightwhiteback">#EEF6F5F5</color>
+    <color name="green_view_bg_curve">#b4e2e1e1</color>
+
+    <!--RideBookingConfirmActivity-->
+    <color name="ride_booking_confirm_constraint">#ffffff</color>
+    <color name="confirm_pick_up_tv">#ffffff</color>
+    <color name="confirm_pickup_bg">#000000</color>
+    <color name="pickup_address_tv">#000000</color>
+    <color name="confirm_pickup_label">#000000</color>
+    <!--RideBookingConfirmActivity bottom sheet-->
+    <color name="share_pool_name_tv">#000000</color>
+    <color name="share_pool_estimated_time_tv">#00c6e9</color>
+    <color name="share_pool_amout_tv">#000000</color>
+    <color name="divider_view">#e0e0e0</color>
+    <color name="select_seat_label_tv">#000000</color>
+    <color name="confirm_seats_tv">#ffffff</color>
+    <color name="select_seat_bottomSheet">#ffffff</color>
+    <color name="gold_color">#FFDE2E</color>
+
+    <!--SeatSelectionSliderAdapter-->
+    <color name="seat_count_tv">#000000</color>
+    <color name="seat_selection_trans_round_bg">#000000</color>
+    <color name="seat_selection_round_bg_trans">#00ffffff</color>
+    seat_selection_trans_round_bg.xml
+
+    <!--SnackFlashBar-->
+    <color name="snack_bg_view">#000000</color>
+    <color name="snack_title">#ffffff</color>
+    <color name="snack_message">#ffffff</color>
+
+    <!-- New Ui -->
+    <color name="greencust">#63C856</color>
+    <color name="btnwhite">#FFFFFF</color>
+    <color name="newblack">#383838</color>
+    <color name="red">#FF0505</color>
+    <color name="dashboardimgbg">#F1F1F1</color>
+    <color name="vehicledashtxt">#AAA3A3</color>
+    <color name="vehicleblack">#0C0B0B</color>
+    <color name="Graytxt">#AFAFAF</color>
+    <color name="shadowbg">#E6E6E6</color>
+    <color name="dropshadow">#00000052</color>
+
+
+
+
+    <!-- Spiro New UI color -->
+    <color name="spiro_blue">#4758A6</color>
+    <color name="spiro_yellow">#DAE020</color>
+    <color name="spironaute_blue">#3038FC</color>
+    <color name="spiro_fade">#202A76FE</color>
+    <color name="warm_grey">#989898</color>
+
+    <color name="fade">#E1EBFF</color>
+
+
+    <color name="new_spiro_color">#0155EB</color>
+
+    <color name="transparent_cc">#00FFFFFF</color>
+
+
+</resources>

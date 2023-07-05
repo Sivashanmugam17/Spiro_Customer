@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="viewModel"
+            type="com.mauto.chd.earningsviewmodel.Viewmodelforearningstwo"/>
+    </data>
+
+
+
+
+    <LinearLayout
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:weightSum="2"
+        android:background="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+<!--            android:id="@+id/loaderreceivecash"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_6sdp"-->
+<!--            style="@style/GNowProgressBar"-->
+<!--            android:indeterminate="true"/>-->
+
+        <LinearLayout
+            android:background="@color/colorwhite"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:weightSum="2"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center|top"
+                android:gravity="center|top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:background="@color/lightblcak"
+                    android:layout_height="@dimen/_55sdp"
+                    >
+
+                    <ImageView
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:id="@+id/close"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/ic_arrow_back"
+                        android:tint="@color/colorwhite"
+                        android:layout_gravity="center|left"
+                        android:gravity="center|left"
+                        ></ImageView>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_2sdp"
+                        android:layout_gravity="center|left"
+                        android:gravity="center|left"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:layout_weight="2"
+                        android:textColor="@color/colorwhite"
+                        android:text="@string/weeklyreport"
+                        android:textSize="@dimen/_16sdp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    >
+<!--                    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+<!--                        android:id="@+id/loader"-->
+<!--                        android:visibility="gone"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        style="@style/GNowProgressBar"-->
+<!--                        android:indeterminate="true"/>-->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/tripsrecylerview"
+                        android:orientation="horizontal"
+                        android:background="@android:color/transparent"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:weightSum="2"
+    android:background="@color/colorwhite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:background="@color/colorwhite"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:layout_gravity="center|left"
+                android:gravity="center|left"
+                android:maxLines="2"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_weight="2"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:ellipsize="end"
+                android:textColor="@color/innergreens"
+                android:text="@string/message_template"
+                android:textSize="@dimen/_19sdp"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/colorlightwhite"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp">
+
+            </LinearLayout>
+<!--            <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView-->
+<!--                android:id="@+id/cancellist"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/my_rides_detail_Faredetail"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginLeft="@dimen/_10sdp"-->
+<!--                android:divider="@null">-->
+
+<!--            </com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView>-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorlightwhite"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_3sdp">
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/close"
+            android:layout_weight="1"
+            android:background="@color/colorblack"
+            android:orientation="horizontal"
+            android:padding="@dimen/_15sdp"
+            android:gravity="center|left"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/closetext"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_2sdp"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:text="@string/closepage"
+                android:textColorHint="@color/theme_gray"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:singleLine="true"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

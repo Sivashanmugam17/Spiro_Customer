@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_spiro">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/batery_low_lay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/back_icons"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/batery_low_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Station"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/heading1"
+        android:layout_marginTop="@dimen/_80sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        app:layout_constraintTop_toBottomOf="@+id/backbutton"
+        tools:ignore="MissingConstraints,NotSibling">
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/spiro_station"
+            app:tint="@color/spiro_blue">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_45sdp">
+
+            <TextView
+                android:id="@+id/bottomsheet_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="10dp"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:text="@string/Swap_Stations"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/newblack"
+                android:layout_gravity="center"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_time_referrals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_4sdp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/newcolorgreen"
+        android:indeterminateTintMode="src_atop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progress_time_referrals"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/swapstation"
+            app:cardCornerRadius="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:backgroundTint="@color/spiro_blue"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_25sdp">
+
+            <ImageView
+                android:id="@+id/call_iv"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/spiro_swap_station_yellow"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/swap_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/swap_station"
+                android:fontFamily="@font/poppins_medium"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="@dimen/_47sdp"/>
+            </LinearLayout>
+
+
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginTop="@dimen/_4sdp"-->
+<!--                        android:fontFamily="@font/poppins_medium"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/Swap_Stations"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:textColor="@color/spiro_blue"-->
+<!--                        android:textSize="@dimen/_10sdp"></TextView>-->
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/srvice"
+            app:cardCornerRadius="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:backgroundTint="@color/spiro_blue"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_25sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/spiro_service_yellow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_18sdp"
+                android:layout_marginEnd="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/service_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/Service_Station"
+                    android:fontFamily="@font/poppins_medium"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginStart="@dimen/_47sdp"/>
+
+
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lay_ones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/batery_low_lay"
+        tools:layout_editor_absoluteX="-64dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Refer_you_friends"
+            android:fontFamily="@font/sfuidisplaybold"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/spiro_gift"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/_20sdp"
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:src="@drawable/spiro_reffer_banner"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/spiro_nmbr_box"
+            android:ems="10"
+            android:fontFamily="@font/sfuidisplaysemibold"
+            android:gravity="center"
+            android:hint="@string/Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_lay"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+            android:background="@drawable/spiro_nmbr_box"
+            android:paddingBottom="2dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/phone_code_textview"
+                android:fontFamily="@font/sfuidisplaysemibold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="5"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="+228"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="@color/colorblack" />
+
+
+
+                <ImageView
+
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:visibility="visible"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:src="@drawable/down_arrow_spiro"
+                    tools:ignore="MissingConstraints" />
+
+                </LinearLayout>
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_63sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="@font/sfuidisplaysemibold"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/phone_code_textview"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="NotSibling" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <EditText
+
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/spiro_nmbr_box"
+            android:ems="10"
+            android:fontFamily="@font/sfuidisplaysemibold"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textSize="@dimen/_16sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dail_lay" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/refer_lay"
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+            android:layout_height="@dimen/_40sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/spiro_blue"
+                android:gravity="center"
+                android:layout_height="@dimen/_40sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/Refer"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/sfuidisplaymedium"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/nointernetconnectionlay"
+        layout="@layout/nointernetconnection"
+        android:visibility="gone"></include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/appversionnew"
+            android:layout_width="wrap_content"
+            android:text="version"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+package com.mauto.chd.viewmodelfortriplist
+
+import io.realm.RealmObject
+
+open class tripdetailsrealmm : RealmObject()
+{
+    var timestampid: String = ""
+    var ride_id: String = ""
+    var ride_status: String = ""
+    var display_status: String = ""
+    var units: String = ""
+    var category: String = ""
+    var pickuplocation: String = ""
+    var pickup_short: String = ""
+    var droplocation: String = ""
+    var drop_short: String = ""
+    var booking_date_time: String = ""
+    var booking_time: String = ""
+    var pickup_date_time: String = ""
+    var pickup_time: String = ""
+    var drop_date_time: String = ""
+    var drop_time: String = ""
+    var cancelled_date_time: String = ""
+    var cancelled_time: String = ""
+    var summary: String = ""
+    var fare_summary: String = ""
+    var payment_typeuser: String = ""
+    var driver_name: String = ""
+    var driver_image: String = ""
+    var vehile_maker_model: String = ""
+    var vehicle_number: String = ""
+    var avg_review: String = ""
+    var invoice_src: String = ""
+    var payment_method: String = ""
+    var grand_fare: String = ""
+    var cancelreason: String = ""
+    var timestamppickup: String = ""
+    var timestampdrop: String = ""
+    var pick_lat: String = ""
+    var pick_long: String = ""
+    var drop_lat: String = ""
+    var drop_long: String = ""
+    var ride_distance: String=""
+
+}

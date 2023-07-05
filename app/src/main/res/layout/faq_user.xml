@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/progress_lay_faq"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress_time_faq"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorgreenlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/_4sdp"
+            />
+
+
+    </LinearLayout>
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/nointernetconnectionlay_3"
+        layout="@layout/nointernetconnection">
+    </include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rental_title_lay"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:background="@drawable/buttonbackground"
+        android:layout_height="@dimen/_55sdp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/backbuttonwhite"
+            android:layout_marginStart="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/batery_low_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_faq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>

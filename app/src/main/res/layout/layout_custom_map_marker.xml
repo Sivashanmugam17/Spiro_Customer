@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mins"
+        android:background="@drawable/mapdrwablecurve"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:layout_height="wrap_content"
+        style="@style/textviewnormal"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:textAllCaps="true"
+        android:layout_gravity="center|left"
+        android:gravity="center|left"
+        android:textSize="@dimen/_11sdp"
+        android:text="@string/minn" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/innergreen"
+        android:layout_height="@dimen/_10sdp"
+        style="@style/textviewnormal"
+        android:text="▼"
+
+        android:textAllCaps="true"
+        android:layout_gravity="center|left"
+        android:gravity="center|left"
+        android:textSize="@dimen/_11sdp"
+        />
+
+</LinearLayout>

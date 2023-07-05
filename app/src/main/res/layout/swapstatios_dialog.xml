@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swap_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Swap Station"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/sfuidisplaymedium"
+                    android:textColor="@color/colordarkhint"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/profile_images1"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_width="91dp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:scaleType="fitXY"
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/swap_station_name"
+                    android:layout_width="wrap_content"
+                    android:text="Togo-X001"
+                    android:textSize="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/sfuidisplaysemibold"
+                    android:textColor="@color/new_spiro_color"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:id="@+id/area_address"
+                    android:layout_width="wrap_content"
+                    android:text="Chennai City Centre, Doctor Radha Krishnan Salai, Loganathan Colony, Mylapore, Chennai, Tamil Nadu, India"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/sfuidisplaymedium"
+                    android:textColor="@color/colordarkhint"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@color/colorlightwhite"
+                ></View>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@color/white"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:src="@drawable/spiro_battery">
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/battery_available"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="23"
+                        android:visibility="gone"
+                        android:textSize="@dimen/_20sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="Charged batteries"
+                        android:textSize="@dimen/_20sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:text="Available Batteries"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/sfuidisplaysemibold"
+                    android:textColor="#6E6E6E"
+                    android:layout_height="wrap_content">
+                </TextView>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/chap223"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/bike_images1"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_width="40dp"
+                        android:src="@drawable/chap_chap"
+                        android:layout_height="@dimen/_40sdp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="Chap Chap"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/chap_count"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/comando"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/bike_images12"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_width="40dp"
+                        android:src="@drawable/commando"
+                        android:layout_height="@dimen/_40sdp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="Commado"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/commando_count"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/mastor"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1" android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/bike_images13"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_width="40dp"
+                        android:src="@drawable/melectric"
+                        android:layout_height="@dimen/_40sdp"
+                        ></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="Mastor"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/melectric_count"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/sfuidisplaysemibold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/getdirecation_lay"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="@color/spiro_blue"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:gravity="center"
+                android:layout_height="@dimen/_40sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/awesome_directions">
+                </ImageView>
+                <TextView
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:text="Get Direction"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@font/sfuidisplaymedium"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

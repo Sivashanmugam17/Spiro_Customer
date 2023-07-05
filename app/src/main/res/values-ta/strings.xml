@@ -1,0 +1,756 @@
+<resources>
+    <string name="app_name">Spiro Customer</string>
+    <!-- General Call Hit -->
+    <string name="getappinfohit">getappinfohit</string>
+    <string name="getservicelocationresponse">getservicelocationresponse</string>
+    <string name="docpendingstage">iamhavingtrip</string>
+    <!-- END General Call Hit -->
+    <string name="locationn">Location</string>
+    <!-- Api call hit -->
+    <string name="Welcome">Welcome</string>
+    <string name="intent_putextra_api_key">api_name</string>
+    <string name="onlinestatuysupdate">onlinestatuysupdate</string>
+    <string name="registerpageoneapi">online_drivers_api</string>
+    <string name="updatemobilenumber">updatemobilenumber</string>
+    <string name="updateemailidalone">updateemailidalone</string>
+    <string name="updateemailidalonewithotp">updateemailidalonewithotp</string>
+    <string name="resendotp">resendotp</string>
+    <string name="tripservice">tripservice</string>
+    <string name="startfirstorlast">startfirstorlast</string>
+    <string name="startlast">startlast</string>
+    <string name="profilesaveapi">profileapi</string>
+    <string name="categoryfetchapi">categoryfetchapi</string>
+    <string name="locationfetchapi">locationfetchapi</string>
+    <string name="steponeapi">steponeapi</string>
+    <string name="steptwoapi">steptwoapi</string>
+    <string name="finalcalltohomepage">finalcalltohomepage</string>
+    <string name="retrievetripdetail">retrievetripdetail</string>
+    <string name="imageupload">imageupload</string>
+    <string name="finaldocument">finaldocument</string>
+    <string name="basicdriverprofileupdate">basicdriverprofileupdate</string>
+    <string name="finaldocumentupload">finaldocumentupload</string>
+    <string name="chatmessageurl">chatmessageurl</string>
+    <string name="starverficationapi">startverficationapi</string>
+    <string name="reuploadapi">reuploadapi</string>
+    <string name="mapfailedtointernet">mapfailedtointernet</string>
+    <string name="driveravailable">driveravailable</string>
+    <string name="logoutcallapi">logoutcallapi</string>
+    <string name="dashboarapicall">dashboarapicall</string>
+    <string name="retrievetripdetailfully">retrievetripdetailfully</string>
+    <string name="loadme">loadme</string>
+    <string name="routeapicall">routeapicall</string>
+    <string name="getvehiclelist">getvehiclelist</string>
+    <string name="reroutingapicall">reroutingapicall</string>
+    <string name="hitnearingapi">hitnearingapi</string>
+    <string name="tripupdate">tripupdate</string>
+    <string name="acknowlcall">acknowlcall</string>
+    <string name="acceptcall">acceptcall</string>
+    <string name="ridedetails">ridedetailss</string>
+    <string name="cancelreason">cancelreason</string>
+    <string name="cancelthisride">cancelthisride</string>
+    <string name="verifyvehiclenumber">verifyvehiclenumber</string>
+    <string name="fcmcancel">fcmcancel</string>
+    <string name="checkinuserexist">checkinuserexist</string>
+    <string name="getmakemodelyear">getmakemodelyearapi</string>
+    <string name="updatemobilewitotp">updatemobilewitotp</string>
+    <string name="skiprating">skiprating</string>
+    <string name="cashreceived">cashreceived</string>
+    <string name="defaultvehicleupdte">defaultvehicleupdte</string>
+    <string name="getvehicleinfoforedit">getvehicleinfoforedit</string>
+    <string name="getdriverdocument">getdriverdocument</string>
+    <string name="getonlymake">getonlymake</string>
+    <string name="emailcheckk">emailcheckk</string>
+    <string name="amazonimageuploaded">amazonimageuploaded</string>
+    <string name="preferred_language">PREFERRED LANGUAGE</string>
+
+    <!-- End of Api call hit -->
+    <!-- Event Bus Module -->
+    <string name="getlocation">getlocation</string>
+    <string name="gettingridecurrentlocation">gettingridecurrentlocation</string>
+    <!-- End of Event Bus Module -->
+    <!-- Project Keys -->
+    <string name="routeKey">AIzaSyBjOJ79xpH-SVeN167QxJY4dJREIqzGQlU</string>
+    <string name="amazonbucketurl">https://meletric-casperon-co-s82kds8.s3.us-east-1.amazonaws.com/documentsFiles/</string>
+    <string name="amazonbucketurlvehicle">https://meletric-casperon-co-s82kds8.s3.us-east-1.amazonaws.com/vehicleImage/</string>
+    <string name="amaozonurlprofileimage">https://meletric-casperon-co-s82kds8.s3.us-east-1.amazonaws.com/driversPicture/</string>
+<!--    <string name="amazonbucketurl">https://jhnmg78hnjygjy.s3.us-east-1.amazonaws.com/documentsFiles/</string>-->
+<!--    <string name="amazonbucketurlvehicle">https://jhnmg78hnjygjy.s3.us-east-1.amazonaws.com/vehicleImage/</string>-->
+<!--    <string name="amaozonurlprofileimage">https://jhnmg78hnjygjy.s3.us-east-1.amazonaws.com/driversPicture/</string>-->
+    <!-- END Project Keys -->
+    <!-- Map Key -->
+    <string name="mapkey">AIzaSyDFeYPYnXF8oYJzcALj96zEh66Cgkm9_AE</string>
+    <!-- ENd Map Key -->
+
+
+    <string name="settings">Location Problem</string>
+    <string name="slide_to_rating">SLIDE TO RATING</string>
+    <string name="collect_below_amount">Collect Below Amount</string>
+    <string name="trip_amount">Trip Amount</string>
+    <string name="send">SEND</string>
+    <string name="template1">Hi. This is your driver I am waiting outside.</string>
+    <string name="template2">Hi. I will reach your stop in few mins.</string>
+    <string name="template3">Due to traffic reaching your stop will take some time.</string>
+    <string name="template4">Your number is not reachabale?</string>
+    <string name="template5">Hi Cant reach your stop vehicle repaired on the way</string>
+    <string name="template6">Sorry Cant get your location , Jut Help me to find out?</string>
+    <string name="mobilechan">Mobile time not matches with server time.</string>
+    <string name="your_phone_date_is_inaccurate_adjust_your_clock_and_try_again">Your phone date is inaccurate.Adjust your clock and try again.</string>
+    <string name="your_phone_date_and_time_is">Your phone date and time is</string>
+    <!-- End Of Welcome Screen -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--New Langauge File-->
+
+
+
+    <!-- Country code Module -->
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <!-- END Country code Module -->
+
+    <string name="fcmkey">key=AAAAnNqisrY:APA91bF5VFpDm4ia6aY7s4QQ1vtelZNniam6aD-3LKp2-DeamqMX6zVwc_B84X6tRHWltm7IT3DRvkd4toNd5E4F3ySfh1Vj9HlTHg1G-li27h85Uq5ygU_qlqdTc504o474tXHdzWq0</string>
+
+
+    <!-- Getting Mobile Number From User -->
+    <string name="whatsyournumber">உங்கள் எண் என்ன?</string>
+    <string name="verfycode">உங்கள் தொலைபேசியைச் சரிபார்க்க ஒரு குறியீட்டை நாங்கள் உரைப்போம்</string>
+    <string name="mobilenumber">கைபேசி எண்</string>
+    <string name="language">Language/மொழி/زبان</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="english">English</string>
+    <string name="languageclose">CLOSE/வெளியேறும்/بند کریں</string>
+    <string name="choosing_this_app_language_will_be_changed_to_english">Choosing this app language will be changed to english</string>
+    <string name="choosing_this_app_language_will_be_changed_to_tamil">இந்த பயன்பாட்டு மொழியைத் தேர்ந்தெடுப்பது தமிழாக மாற்றப்படும்</string>
+    <string name="choosing_this_app_language_will_be_changed_to_urudu">اس ایپ کی زبان کا انتخاب انگریزی میں کیا جائے گا</string>
+    <string name="arabic">عربی</string>
+    <string name="choosing_this_app_language_will_be_changed_to_french">Le choix de cette langue de l application sera changé en français</string>
+
+    <!-- END-->
+
+    <string name="History">History</string>
+    <string name="Earning">Earning</string>
+    <string name="Support">Support</string>
+    <string name="Wallet">Wallet</string>
+    <string name="BikeRetrievalTeam">Bike Retrieval Team?</string>
+    <string name="FAQ">FAQ?</string>
+    <string name="how_can_help">How Can We Help You?</string>
+    <string name="call_support">Call Customer Support</string>
+    <string name="Report_an_issue">Report an issue</string>
+    <string name="Type_Your_Comments">Type Your Comments....</string>
+    <string name="send_comment">Send your comments</string>
+    <string name="call_customer_support">Call Customer Support</string>
+    <string name="profile_driver">profile driver</string>
+    <string name="phone">Phone Number</string>
+
+
+
+
+    <!-- Getting OTP From User -->
+    <string name="whatisthecode">குறியீடு என்ன?</string>
+    <string name="sentto">அனுப்பப்பட்டது</string>
+    <string name="didnotreceive">OTP ஐப் பெறவில்லையா?</string>
+    <string name="resendcode">குறியீட்டை மீண்டும் அனுப்பு</string>
+    <string name="otp_wrong">உள்ளிட்ட OTP தவறு</string>
+    <string name="ot_empty">OTP காலியாக இருக்கக்கூடாது</string>
+    <string name="VERFICATION" >VERFICATION</string>
+    <string name="VERIFY">VERIFY</string>
+    <string name="fourdigit" >Enter the four-digit code we sent you at </string>
+    <!-- END-->
+
+
+
+    <!-- RegisterPage 1 -->
+    <string name="apply_to_drive">இயக்க விண்ணப்பிக்கவும்</string>
+    <string name="tell_us_about_yourself">உங்களைப் பற்றி சொல்லுங்கள்</string>
+    <string name="apartment">அடுக்குமாடி இல்லங்கள்</string>
+    <string name="address">முகவரி</string>
+    <string name="select_country">நாட்டினை தேர்வுசெய்</string>
+    <string name="state">நிலை</string>
+    <string name="city">நகரம்</string>
+    <string name="service_location">சேவை இருப்பிடம்</string>
+    <string name="zipcode">ஜிப்குறியீடு</string>
+    <string name="license_plate_number">உரிம தட்டு எண்</string>
+    <string name="apartmet_empty">அபார்ட்மெண்ட் காலியாக இருக்கக்கூடாது</string>
+    <string name="addreee_empty">முகவரி காலியாக இருக்கக்கூடாது</string>
+    <string name="country_empty">நாடு காலியாக இருக்கக்கூடாது</string>
+    <string name="state_empty">மாநிலம் காலியாக இருக்கக்கூடாது</string>
+    <string name="city_empty">நகரம் காலியாக இருக்கக்கூடாது</string>
+    <string name="zipcode_empty">ஜிப்கோட் காலியாக இருக்கக்கூடாது</string>
+    <string name="service_locationnotepmty">சேவை இருப்பிடம் காலியாக இருக்கக்கூடாது</string>
+    <string name="fetching_location">உங்கள் சேவை இருப்பிடத்தை நாங்கள் பெறுகிறோம்</string>
+    <string name="profile_photo">சுயவிவர புகைப்படம்</string>
+    <string name="upload_your_profile_photo">உங்கள் சுயவிவர புகைப்படத்தை பதிவேற்றவும்</string>
+    <string name="email">மின்னஞ்சல் முகவரி</string>
+    <string name="firstname">முதல் பெயர்</string>
+    <string name="lastname">கடைசி பெயர்</string>
+    <string name="male">ஆண்</string>
+    <string name="female">பெண்</string>
+    <string name="gendersel">உங்கள் பாலினத்தைத் தேர்வுசெய்க</string>
+    <string name="dob">பிறந்த தேதி</string>
+    <string name="camera">கேமராவிலிருந்து</string>
+    <string name="gallery">கேலரியில் இருந்து</string>
+    <string name="firstshouldnotbeempty">முதல் பெயர் காலியாக இருக்கக்கூடாது !!!</string>
+    <string name="lastshouldnotbeempty">கடைசி பெயர் காலியாக இருக்கக்கூடாது !!!</string>
+    <string name="emailshouldnotbeempty">மின்னஞ்சல் காலியாக இருக்கக்கூடாது !!!</string>
+    <string name="emailisinvalid">உள்ளிட்ட மின்னஞ்சல் தவறானது !!!</string>
+    <string name="dobshouldnotbeempty">DOB காலியாக இருக்கக்கூடாது !!!</string>
+    <string name="upload_profile_photo">சுயவிவரப் புகைப்படத்தைப் பதிவேற்றுக</string>
+    <string name="profailed">சுயவிவர பதிவேற்றம் தோல்வியுற்றது</string>
+    <!-- END RegisterPage 1 -->
+
+
+    <!-- RegisterPage 2 -->
+    <string name="back_to_login">உள்நுழைய திரும்புக</string>
+    <string name="vehiclenoenter">வாகன எண்ணை உள்ளிடவும்</string>
+    <string name="adddetails">வாகன விவரங்கள்</string>
+    <string name="adddetailstwo">தனிப்பட்ட வாகனத்தை கேபிலியில் சேர்க்கவும்</string>
+    <string name="step1">படி 1/2</string>
+    <string name="step2">படி 2/2</string>
+    <string name="vehicle_image">வாகன படம்</string>
+    <string name="step3">படி 3</string>
+    <string name="Location">இருப்பிடத்தைத் தேர்வுசெய்க</string>
+    <string name="Category">வகையைத் தேர்வுசெய்க</string>
+    <string name="vehivletype">வாகன வகையைத் தேர்வுசெய்க</string>
+    <string name="make">வாகன தயாரிப்பைத் தேர்வுசெய்க</string>
+    <string name="model">வாகன மாதிரியைத் தேர்வுசெய்க</string>
+    <string name="year">வாகன ஆண்டைத் தேர்வுசெய்க</string>
+    <string name="typeno">எண்ணை உள்ளிடவும்</string>
+    <string name="fileadded">கோப்பு சேமிக்கப்பட்ட முன்னோட்டம்</string>
+    <string name="locationnn">இருப்பிடம்</string>
+    <string name="categoryy">வகை</string>
+    <string name="worktype">பயண விருப்பம்</string>
+    <string name="vehicletypee">வாகன வகை</string>
+    <string name="vehiclemake">வாகனம் தயாரித்தல்</string>
+    <string name="vehiclemodel">வாகன மாதிரி</string>
+    <string name="vehicleyear">வாகன ஆண்டு</string>
+    <string name="document">Document</string>
+    <string name="pleasefillalalfield">எல்லா புலங்களையும் நிரப்பவும்</string>
+    <string name="image_use">பயனர் முன்னோட்டத்திற்காக உங்கள் வாகன படத்தை பதிவேற்றவும்.</string>
+    <string name="vehiclenumber_alreadyregistered">ஏற்கனவே பதிவுசெய்யப்பட்ட வாகன எண் புதிய ஒன்றை முயற்சிக்கவும்.</string>
+    <string name="veh_image">வாகன படம்</string>
+    <string name="uploadyourphotoo">உங்கள் வாகன புகைப்படத்தை பதிவேற்றவும்</string>
+    <string name="vehfailed">வாகன பட பதிவேற்றம் தோல்வியுற்றது</string>
+    <string name="previewme">வாகன படத்தை முன்னோட்டமிடுங்கள்</string>
+    <!-- END RegisterPage 2 -->
+
+    <!-- RegisterPage 3 -->
+    <string name="document_s">ஆவணம்</string>
+    <string name="add_vehicle_document_to_cabily">வாகன ஆவணத்தைச் சேர்க்கவும்</string>
+    <string name="pleae_wait_image">படத்தைப் பதிவேற்றும் வரை காத்திருக்கவும்</string>
+    <string name="thanks_for_registering_with_us_our_admin_will_be_verfying_your_document">எங்களுடன் பதிவுசெய்ததற்கு நன்றி.மேலும் தொடர உங்கள் ஆவணத்தில் சில தேவை.</string>
+    <string name="ok">சரி</string>
+    <string name="close">வெளியேறும்</string>
+    <string name="success">வெற்றி</string>
+    <string name="failed_upload_image">படத்தை மேம்படுத்துவதில் சிக்கல் மீண்டும் முயற்சிக்கவும் !!!</string>
+    <string name="uploading_image">முந்தைய படத்தைப் பதிவேற்றுகிறது தயவுசெய்து காத்திருங்கள் ...</string>
+    <string name="expirydate">காலாவதி தேதி</string>
+    <string name="selectexpirydate">காலாவதி தேதியைத் தேர்வுசெய்க</string>
+    <string name="notess">குறிப்பு:</string>
+    <string name="saving_image">படத்தைச் சேமிக்கிறது</string>
+    <string name="doc_man">இந்த ஆவணம் கட்டாயமாகும்</string>
+    <string name="driverver">சரிபார்ப்புக்கு தேவை.</string>
+    <string name="backside">பின்புறம்</string>
+    <string name="frontside">முன் பக்க</string>
+    <string name="missingexpirydate">கோப்பைத் தேர்ந்தெடுப்பதற்கு முன்பு காலாவதி தேதியை நிரப்பவும்.</string>
+    <string name="chooseimagemissing">தொடர்வதற்கு முன் கோப்பைத் தேர்வுசெய்க.</string>
+    <string name="fillallfile">தொடர்வதற்கு முன் எல்லா கோப்பையும் பதிவேற்றவும் ...</string>
+    <string name="next">next</string>
+
+    <!-- end of RegisterPage 3 -->
+
+
+    <!-- Location Page-->
+    <string name="sorrysettings">புதிய பயணங்களைக் கண்டறிய இருப்பிடத்தை இயக்கவும்.</string>
+    <string name="enable_location_background">MAuto பைலட், ஆப்ஸ் மூடப்பட்டிருந்தாலும், பயணிகளுக்கு உங்களின் தற்போதைய இருப்பிடத்தைப் பகிர இருப்பிடத் தரவைச் சேகரிக்கிறது.</string>
+    <string name="enable2">இருப்பிடம் துல்லியமாக இருக்க உங்களிடம் அதிக துல்லியத்துடன் இருப்பிடம் இருப்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்.</string>
+    <!-- end of Location Page -->
+
+    <!-- Main Page-->
+    <string name="verfication_pending">சரிபார்ப்பு நிலுவையில் உள்ளது</string>
+    <string name="doccontent">உங்கள் ஆவணம் சரிபார்க்கப்படவில்லை. இதை மேலும் சரிபார்க்க நிர்வாகியைத் தொடர்பு கொள்ளுங்கள்.</string>
+    <string name="retry">மீண்டும் முயற்சி செய்</string>
+    <string name="go">போ</string>
+    <string name="off">ஆஃப்</string>
+    <string name="today_trips">இன்று</string>
+    <string name="totalhrsonline">பயணங்கள் நிறைவடைந்தன</string>
+    <string name="onlinenotifymessage">Your online finding new trips</string>
+    <string name="onlinenotifymessagetamil">உங்கள் ஆன்லைன் புதிய பயணங்களைக் கண்டறிதல்</string>
+    <string name="onlinenotifymessageurdu">آپ کے آن لائن ڈھونڈنے کے نئے سفر</string>
+    <string name="zojekonline">Welcome To Zojek</string>
+    <string name="zojekonlinetamil">வரவேற்கிறோம் Zojek</string>
+    <string name="zojekonlineurudu">میں خوش آمدید Zojek</string>
+    <string name="ridetidme">கிடைக்கவில்லை</string>
+    <string name="lastrip">கடைசி பயணம்</string>
+    <string name="weekrip">வார பயணம்</string>
+    <string name="earningnot">மன்னிக்கவும் வருவாய் கிடைக்கவில்லை மீண்டும் முயற்சிக்கவும்</string>
+    <string name="see_all_trips">எல்லா முயற்சிகளையும் காண்க</string>
+    <string name="driver_details">இயக்கி விவரங்கள்</string>
+    <string name="battery_saver">பேட்டரி சேவர்</string>
+    <string name="cabily_ride">போ வண்டிகள்</string>
+    <string name="turning_this_option_will_enable_baterry_saving">இந்த விருப்பத்தை திருப்பினால், பேட்டரி சேமிப்பு உதவும்</string>
+    <!-- Main Page Side Bar-->
+    <string name="mobileno">கைபேசி எண்</string>
+    <string name="log_out">வெளியேறு</string>
+    <string name="trip_summary">வாகனம் சேர்க்கவும்</string>
+    <string name="vehiclelistt">வாகனம் பட்டியல்</string>
+    <string name="tripsummary">பயண சுருக்கம்</string>
+    <string name="driverprofile">சுயவிவரம் &amp; ஆவணம்</string>
+    <string name="about_us">எங்களை பற்றி</string>
+    <string name="feedback">பின்னூட்டம்</string>
+    <string name="earningss">வருவாய்</string>
+    <!-- END Main Page Side Bar-->
+    <!-- End Main Page-->
+
+    <!--Ride Request Page-->
+    <string name="decline">நிராகரிக்க</string>
+    <!-- End of Ride Request Page-->
+
+    <!--Trip Page-->
+    <string name="kms">கே.எம்</string>
+    <string name="meters">எம்</string>
+    <string name="nearing">1 மினிட்</string>
+    <string name="minn">மினிட்</string>
+    <string name="payment_method">கட்டணம் செலுத்தும் முறை</string>
+    <string name="rider_details">ரைடர் விவரங்கள்</string>
+    <string name="booked_at">முன்பதிவு செய்யப்பட்டது:</string>
+    <string name="slide">வந்தபோது ஸ்லைடு</string>
+    <string name="beforeridebegin">எடுக்கும் வழியில்</string>
+    <string name="slide_to_begin">தொடங்க ஸ்லைடு</string>
+    <string name="slide_to_end">முடிக்க ஸ்லைடு</string>
+    <string name="slideerror">பயணத் தரவைப் புதுப்பிக்க காத்திருக்கவும்...</string>
+    <string name="riding_with">உடன் சவாரி</string>
+    <string name="cancel_trip">பயணத்தை ரத்துசெய்</string>
+    <string name="dsf">தயவுசெய்து காத்திருங்கள்</string>
+    <string name="choose_your_cancellation_reason">ரத்து செய்வதற்கான காரணம்</string>
+    <string name="note_no_charge_will_be_applicable_for_this_trip">குறிப்பு: இந்த பயணத்திற்கு எந்த கட்டணமும் பொருந்தாது</string>
+    <string name="pallic">இந்த சவாரிக்கு பொருந்தும்.</string>
+    <string name="noteforca">குறிப்பு: ரத்து கட்டணம்</string>
+    <string name="confirm_cancel">உறுதிப்படுத்து</string>
+    <string name="wanttocancel">இந்த பயணத்தை ரத்து செய்ய விரும்புகிறீர்களா?</string>
+    <string name="closepage">வெளியேறும்</string>
+    <string name="yesia">ஆம்</string>
+    <string name="cashpay">பணம்</string>
+    <string name="cancellatinfailed">ரத்துசெய்தல் தோல்வியுற்றது மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="nonotavaialbe">வாடிக்கையாளர் எண் கிடைக்கவில்லை</string>
+    <string name="ride_cancelled">சவாரி ரத்து செய்யப்பட்டது</string>
+    <string name="sorry_this_ride_has_been_cancelled">மன்னிக்கவும் இந்த சவாரி ரத்து செய்யப்பட்டது</string>
+    <string name="ride_id">ரைடு ஐடி:</string>
+    <string name="problemwitlocation">லோஷனைப் பெறுவதில் சிக்கல் மீண்டும் முயற்சிக்கவும்...</string>
+    <string name="no_cancellation">ரத்துசெய்யும் காரணம் எதுவும் கிடைக்கவில்லை...</string>
+    <string name="gmap_proced">தொடர முன் Google வரைபடத்தை அமைக்கவும்</string>
+    <string name="appnotfound">பயன்பாடு கிடைக்கவில்லை</string>
+    <string name="wazeinstallplaystore">உங்கள் மொபைலில் Waze வரைபடம் கிடைக்கவில்லை. அதை பிளேஸ்டோரிலிருந்து நிறுவ முடிந்தது.</string>
+    <!--End of Trip Page-->
+
+    <!--Chat Page-->
+    <string name="entermessagebefore">தொடர்வதற்கு முன் செய்தியை உள்ளிடவும்</string>
+    <string name="message_template">செய்தி வார்ப்புரு</string>
+    <string name="enter_message">செய்தி...</string>
+    <!--End of Chat Page-->
+
+    <!--Rating Page-->
+    <string name="rate_passenger">பயணிகள் விகிதம்</string>
+    <string name="your_commentfor">உங்கள் கருத்து</string>
+    <string name="submit">சமர்ப்பி</string>
+    <!--End of Rating Page-->
+
+    <!--Cash Received Page-->
+    <string name="recieve_cash">பணத்தைப் பெறுங்கள்</string>
+    <string name="received">பெறு</string>
+    <string name="please_collect_below_amount_from_customer">வாடிக்கையாளரிடமிருந்து கீழே தொகையை சேகரிக்கவும்</string>
+    <!--End of Cash Received -->
+
+    <!--Settings Page-->
+    <string name="setting_sheet">அமைப்புகள்</string>
+    <string name="enable_reouting_option">வழிமாற்றுதல் விருப்பம்</string>
+    <string name="enabling_this_option_will_draw_route_on_change_of_150_meters_from_the_fixed_path">இந்த விருப்பத்தை இயக்குவது நிலையான பாதையிலிருந்து 150 மீட்டர் மாற்றத்தில் பாதையை வரையும்.</string>
+    <string name="map_style">வரைபட நடை</string>
+    <string name="change_your_map_style_to_dark_mode">சவாரி செய்யும் போது உங்கள் வரைபட பாணியை இருண்ட பயன்முறையாக மாற்றவும்.</string>
+    <string name="choose_language">மொழியைத் தேர்வுசெய்க</string>
+    <string name="navigation">ஊடுருவல்</string>
+    <string name="waze">வேஜ்</string>
+    <string name="goolge_map">Google வரைபடம்</string>
+    <string name="powered_by_google">Google ஆல் இயக்கப்படுகிறது</string>
+    <string name="navigation_app_owned_by_google">வழிசெலுத்தல் பயன்பாடு Google க்கு சொந்தமானது</string>
+    <string name="waze_not_available">உங்கள் சாதனத்தில் Waze வரைபடம் கிடைக்கவில்லை.</string>
+    <string name="gmap_not_available">உங்கள் சாதனத்தில் Google வரைபடம் கிடைக்கவில்லை.</string>
+    <!--End of Settings Page -->
+
+
+    <!--Voice on nearing -->
+    <string name="voiceofpickup">Hello driver you are within the customer pickup range</string>
+    <string name="travelle">Travelled:</string>
+    <string name="travelletamil">பயணம்:</string>
+    <string name="tripstatreed">Your Trip has been started</string>
+    <string name="tripstatreedtamil">உங்கள் பயணம் தொடங்கப்பட்டது</string>
+    <string name="travelleurudu">سفر:</string>
+    <string name="tripstatreedurudu">آپ کا سفر شروع کیا گیا ہے</string>
+    <!--End of nearing -->
+
+
+    <!-- Common Mesage -->
+    <!-- For Network Error -->
+    <string name="failedproblem">இணைப்பு ஸ்தாபனம் தோல்வியுற்றது மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="plaesefill">எல்லா புலங்களையும் நிரப்பவும்</string>
+    <string name="connection_problem">இணைப்பு சிக்கல்</string>
+    <string name="below_foeld">தொடர கீழே புலத்தை நிரப்பவும் ...</string>
+    <string name="choosefile">கோப்பை தேர்ந்தெடுக்கவும்</string>
+    <string name="waittillimageupload">படத்தைப் பதிவேற்றும் வரை காத்திருக்கவும்</string>
+    <string name="failed">தோல்வி</string>
+    <string name="uploadmer">பதிவேற்றவும்</string>
+    <string name="onemorefilepending">பதிவேற்ற இன்னும் ஒரு கோப்பு நிலுவையில் உள்ளது ...</string>
+    <string name="nofielchoosen">கோப்பு தேர்வுசெய்யப்பட வில்லை</string>
+    <string name="fileuploadedpendingforapproval">கோப்பு பதிவேற்றத்திற்காக காத்திருக்கிறது ...</string>
+    <string name="fileuploadedsu">கோப்பு பதிவேற்றப்பட்டது</string>
+    <string name="search">தேடல்</string>
+    <string name="loading">ஏற்றுதல்....</string>
+    <string name="inprogress">முன்னேற்றம் ....</string>
+    <string name="nodataaviable">தேர்ந்தெடுக்கப்பட்டவருக்கு தரவு எதுவும் கிடைக்கவில்லை</string>
+    <string name="sorry_problem_with_loading_document_please_try_again_later">ஆவணத்தை ஏற்றுவதில் மன்னிக்கவும் சிக்கல். தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</string>
+    <!-- END For Network Error -->
+
+
+    <!--Trip Summary -->
+    <string name="trips_summary">பயணங்கள்</string>
+    <string name="att">மணிக்கு</string>
+    <string name="tripid">பயண எண்:</string>
+    <string name="tripcompleted">நிறைவு</string>
+    <string name="tripcancelled">ரத்து</string>
+    <string name="sort_by">மூலம் வரிசைப்படுத்து</string>
+    <string name="choose_your_from_and_to_date">உங்கள் தேதி மற்றும் தேதி தேர்வு</string>
+    <string name="from_date">தேதியிலிருந்து</string>
+    <string name="to_date">தேதி வரை</string>
+    <string name="to00">க்கு</string>
+    <string name="note_date_selection_should_be_with_in_7_days_difference">குறிப்பு: தேதி தேர்வு 7 நாட்களில் வித்தியாசத்தில் இருக்க வேண்டும்.</string>
+    <string name="choose_trip_type">பயண வகையைத் தேர்வுசெய்க</string>
+    <string name="apply">விண்ணப்பிக்கவும்</string>
+    <string name="all">அனைத்து</string>
+    <string name="pleasefillfromdate">தேதியிலிருந்து தேர்வு செய்யவும்...</string>
+    <string name="sorrydateismore">7 நாட்களுக்கு இடையில் தேதியைத் தேர்வுசெய்க</string>
+    <string name="driver_earning">இயக்கி சம்பாதிப்பது</string>
+    <string name="out_of">வெளியே</string>
+    <string name="passenger_paid">பயணிகள் கட்டணம் செலுத்தப்பட்டது</string>
+    <!--End of Trip Summary-->
+
+    <!-- END-->
+    <!--END OF New Langauge File-->
+
+    <!--Earning Page first-->
+    <string name="netfare">நிகர கட்டணம்</string>
+    <string name="tapbar">தினசரி சுருக்கத்திற்கு பட்டியைத் தட்டவும்</string>
+    <string name="payoutdate">செலுத்தும் தேதி</string>
+    <string name="balance">இருப்பு</string>
+    <string name="getpaid">பணம் பெற</string>
+    <!--End of Earning Page first-->
+
+    <!--Earning Page second-->
+    <string name="weeklyreport">வார அறிக்கை</string>
+    <!--End of Earning Page second-->
+
+
+    <!--Earning Page third-->
+    <string name="pertrip">ஒரு பயணத்திற்கு</string>
+    <string name="perhrtrip">பயணத்திற்கு ஒரு மணி நேரத்திற்கு</string>
+    <string name="perdistancetrip">பயணத்தில் ஒரு தூரத்திற்கு</string>
+    <string name="timeonline">நேரம் ஆன்லைன்</string>
+    <string name="triphr">பயண நேரம்</string>
+    <string name="tripdistance">பயண தூரம்</string>
+    <string name="summarydetails">சுருக்கம் விவரங்கள்</string>
+    <string name="ratingss">மதிப்பீடுகள்</string>
+    <!--End of Earning Page third-->
+
+    <!--Vehicle list-->
+    <string name="vehiclelistnumber">வாகன எண்</string>
+    <string name="selectedvehicle">வாகனம் தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="selectedvehicleother">வாகனம் சேர்க்கப்பட்டது</string>
+    <string name="choosedefaultvehicle">இயல்புநிலை வாகனத்தைத் தேர்வுசெய்க</string>
+    <string name="choosedefaultvehiclecontent">நீங்கள் நிச்சயமாக செய்ய விரும்புகிறீர்களா</string>
+    <string name="choosedefaultvehiclecontent2">உங்கள் இயல்புநிலை வாகனமாக?</string>
+    <string name="unverfy">சரிபார்க்கப்படவில்லை</string>
+    <string name="editvehicle">தொகு</string>
+    <string name="basicvehicledetails">வாகன அடிப்படை தகவலைத் திருத்தவும்</string>
+    <string name="basicdocument">வாகன ஆவணத்தைத் திருத்தவும்</string>
+    <string name="editvehicledetails">வாகன விவரங்களைத் திருத்து</string>
+    <string name="vehiclenoenterss">வாகன எண் திருத்த முடியாது</string>
+    <string name="wanttoedit">திருத்த வேண்டிய வானிலை ஆவணம் அல்லது அடிப்படை விவரங்களைத் தேர்வுசெய்க.</string>
+    <string name="edit_vehicle_details">வாகன விவரங்களைத் திருத்தவும்</string>
+    <string name="make_this_as_your_default_vehicle">இதை உங்கள் இயல்புநிலை வாகனமாக மாற்றவும்</string>
+    <!--Vehicle list End-->
+
+    <!--Profile Edit-->
+    <string name="editprofile">தொகு</string>
+    <string name="editdocument">ஆவணத்தைத் திருத்த கிளிக் செய்க</string>
+    <string name="verfycodeemail">உங்கள் மின்னஞ்சல் ஐடியை சரிபார்க்க ஒரு குறியீட்டை நாங்கள் உரைப்போம்</string>
+    <!--Profile Edit End-->
+
+    <!--Trip List-->
+    <string name="no_data_available">தரவு எதுவும் கிடைக்கவில்லை</string>
+    <string name="completedtest">நிறைவு</string>
+    <string name="cancellation">ரத்து செய்யப்பட்டது</string>
+    <string name="cash">பணம்</string>
+    <string name="vehiclename">வாகனத்தின் பெயர்</string>
+    <string name="dateandtime">தேதி மற்றும் நேரம்</string>
+    <string name="rideid">சி.ஆர்.என்</string>
+    <string name="rideidtext">சவாரி ஐடி</string>
+    <string name="driverearning">கட்டணம் முறிவு</string>
+    <string name="yourearning">செலுத்திய தொகை</string>
+    <string name="tripdetails">பயண விவரங்கள்</string>
+    <string name="driverrevenue">ஓட்டுநர் வருவாய்</string>
+    <string name="categoryvehicle">வகை</string>
+    <string name="driverrevenuestatement">நிர்வாக கமிஷனுக்குப் பிறகு உங்கள் வருவாய்</string>
+    <string name="cancelreasons">காரணத்தை ரத்துசெய்</string>
+    <string name="voter_id">Voter ID/National ID card</string>
+    <string name="doc_id">Vehicle Registration Document</string>
+    <string name="EnterOTP">Enter OTP</string>
+
+    <!--End of Trip List-->
+
+    <!--OTP RIDE -->
+    <string name="OTP_Ride">OTP Ride</string>
+    <string name="Current_Location">Current Location</string>
+    <string name="drop_location">drop location</string>
+    <string name="Fare_Estimate">Fare Estimate</string>
+    <string name="ETA_Destination">ETA to Destination</string>
+    <string name="To_Reach_Destination">To Reach Destination</string>
+    <string name="Enter_Number">Enter The Customer Phone Number</string>
+    <string name="METER">METER</string>
+    <string name="Slide_End_Trip">Slide To End Trip</string>
+    <string name="Cash_collect">Cash to collect</string>
+    <string name="Your_Earnings_Details">Your Earnings Details</string>
+    <string name="Cash_Collected">Cash Collected</string>
+
+
+
+    <string name="agree_and_accept">By Providing my phone number, i hereby agree and accept</string>
+    <string name="the">the</string>
+    <string name="terms"> terms of service </string>
+    <string name="and" >and</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="vehiclenumber">Vehicle Number</string>
+
+    <!--Main Page-->
+    <string name="Completed_Trips">Completed Trips</string>
+    <string name="Missed_Trips">Missed Trips</string>
+    <string name="Today_Earnings">Today Earnings.</string>
+
+
+    <string name="api_location_fare">location_fare_api</string>
+</resources>

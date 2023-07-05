@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/locationmissingmainok"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorwhite"
+    >
+
+
+<!--    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar-->
+<!--        android:id="@+id/loader"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/GNowProgressBar"-->
+<!--        android:indeterminate="true"/>-->
+    <LinearLayout
+        android:layout_marginRight="@dimen/_20sdp"
+        android:id="@+id/backbutton"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@drawable/right_arrowwhite"
+            android:backgroundTint="@color/colorblack"
+            android:padding="@dimen/_10sdp"
+            android:rotation="180" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/errormess"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/textviewnormal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="false"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:hint="@string/sorry_problem_with_loading_document_please_try_again_later"
+            />
+
+        <ImageView
+            android:id="@+id/previewima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/locationonscreen" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

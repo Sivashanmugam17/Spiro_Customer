@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/progress_lay_faq"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress_time_faq"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorgreenlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/_4sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ratingpage_lay"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="match_parent"
+        tools:ignore="InvalidId"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+            <ImageView
+                android:id="@+id/backbutton_lay"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_back_lessthen"
+                android:layout_marginStart="@dimen/_8sdp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfuidisplaybold"
+                android:text="Payment"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:src="@drawable/appicons"></ImageView>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/sfuidisplaybold"
+            android:text="Payment processing"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_21sdp"></TextView>
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/sfuidisplaybold"
+            android:text="Important: Please do not press back or switch to another app
+while we are payment processing"
+            android:textColor="@color/colorgreen"
+            android:textSize="@dimen/_15sdp"></TextView>
+
+
+        <ProgressBar
+            android:id="@+id/payment_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/nointernetconnectionlay_3"
+        layout="@layout/nointernetconnection">
+    </include>
+
+
+
+
+
+
+</LinearLayout>

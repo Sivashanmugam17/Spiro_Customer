@@ -1,0 +1,53 @@
+ // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    apply from: "dependencies.gradle"
+
+    repositories {
+        google()
+        maven { url "https://jitpack.io" }
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:${androidGradlePlugin}"
+        classpath gradlePlugins.kotlin
+        classpath gradlePlugins.navigation
+        classpath gradlePlugins.mavenn
+        classpath 'com.google.gms:google-services:4.3.14'
+        classpath gradlePlugins.frog
+        classpath gradlePlugins.nova
+        classpath gradlePlugins.realmplugin
+
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+ext {
+    supportLibraryVersion = '25.3.1'
+    okhttpVersion = '3.7.0'
+    gsonVersion = '2.8.0'
+    kotlin_version = '1.1.2-2'
+    junitVersion = '4.12'
+    libraries = [
+            annotations: "com.android.support:support-annotations:26.0.1"
+    ]
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

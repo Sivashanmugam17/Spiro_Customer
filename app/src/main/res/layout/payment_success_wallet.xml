@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:elevation="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:text="@string/Payment_Successful"
+            android:textColor="@color/black"
+            android:layout_gravity="top|center"
+            >
+
+        </TextView>
+        <LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_payment_success_bg_new"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_400sdp">
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:elevation="@dimen/_5sdp"-->
+<!--                android:id="@+id/animationView"-->
+<!--                android:layout_width="@dimen/_150sdp"-->
+<!--                android:layout_height="@dimen/_150sdp"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:lottie_rawRes="@raw/payment_success"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="true"/>-->
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:elevation="@dimen/_4sdp"
+        android:background="@drawable/paymentsucceswallet"
+        android:layout_width="@dimen/_142sdp"
+        android:layout_height="@dimen/_142sdp">
+
+    </ImageView>
+
+
+</LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/rate_now"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="#0AD7B0">
+
+            <TextView
+                android:id="@+id/done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Done"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp">
+            </TextView>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

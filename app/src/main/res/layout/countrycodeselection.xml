@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorwhite"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+
+
+
+    <LinearLayout
+        android:background="@color/colorblack"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/_60sdp">
+
+        <ImageView
+            android:id="@+id/close"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_11sdp"
+            android:tint="@android:color/white"
+            android:layout_height="@dimen/_40sdp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center|left"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:background="@drawable/curveedittext"
+            android:layout_height="@dimen/_45sdp">
+
+        <EditText
+            android:id="@+id/searchtext"
+            android:layout_weight="1"
+            style="@style/edittextviewnormaltext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:paddingLeft="@dimen/_15sdp"
+           android:background="@null"
+            android:gravity="center|left"
+            android:imeOptions="actionDone"
+            android:hint="@string/search"
+            android:singleLine="true" />
+            <ImageView
+                android:id="@+id/clear"
+                android:visibility="invisible"
+                android:src="@drawable/ic_close"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:gravity="center"
+                android:padding="@dimen/_12sdp"
+                android:tint="@android:color/black"
+                android:layout_height="@dimen/_40sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv_todo_list"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_weight="2"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="@drawable/rippleeffect"
+    android:orientation="vertical"
+    android:padding="@dimen/_2sdp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/amountsnew1"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/gray"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/_48sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:text="XOF  "
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/amountsnew"
+        android:layout_width="wrap_content"
+        android:weightSum="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/_19sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:text="CFA  "
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/Recenttextviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/amountsnew"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:weightSum="2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/sfuidisplaybold"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:textSize="@dimen/_20sdp"
+        android:text="100"
+        android:textAlignment="center"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:background="@color/lightasah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Recenttextviews"
+        android:layout_height="2dp">
+
+    </View>
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

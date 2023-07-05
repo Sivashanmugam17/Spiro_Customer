@@ -1,0 +1,243 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.mauto.customer"
+        minSdkVersion 22
+        targetSdkVersion 33
+        versionCode 22
+        versionName "3.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+
+
+    buildTypes {
+        release {
+
+            /*This following lines will make generated release APK in particular name and Date+Time*/
+            applicationVariants.all { variant ->
+                def date = new Date()
+                def formattedDate = date.format('dd-MM-yyyy HH.mm')
+                variant.outputs.all {
+                    outputFileName = "${"Spiro"}-${variant.name}-${formattedDate}.apk"
+                }
+            }
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    dataBinding {
+        enabled = true
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Kotlin
+    implementation kotlinLibraries.kotlin
+
+    //Support
+    implementation supportLibraries.appCompat
+    implementation supportLibraries.cardView
+    implementation supportLibraries.recyclerView
+    implementation supportLibraries.material
+
+//    implementation project(':toggle')
+    //ViewModel & LiveData
+    implementation archLibraries.lifecycle
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.0.8'
+//    implementation 'androidx.viewpager:viewpager:1.0.0'
+//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    kapt archLibraries.lifecycleCompiler
+
+    //Room + Coroutines
+    implementation archLibraries.roomCoroutines
+    kapt archLibraries.roomCompiler
+
+    // Testing
+    testImplementation testLibraries.junit
+    androidTestImplementation testLibraries.testRunner
+    androidTestImplementation testLibraries.espresso
+
+    //Anko + Coroutines
+    implementation ankoLibraries.anko
+    implementation ankoLibraries.appCompat
+    implementation ankoLibraries.coroutines
+    implementation ankoLibraries.appcompatcoroutines
+
+//    implementation project(':loaderlibrary')
+//    implementation project(':imagecompress')
+
+//    implementation project(':ripplebutton')
+//    implementation project(':slidetoact')
+    implementation project(':kotin-networking')
+//    implementation project(':sildenavi')
+
+
+    //circle imageview
+//    implementation circleLibraries.circleimg
+
+    // google play services
+    implementation googlesLibraries.location
+    implementation googlesLibraries.maps
+    implementation googlesLibraries.places
+    /*implementation googlesLibraries.messaging*/
+    implementation googlesLibraries.core
+    implementation googlesLibraries.auth
+    implementation googlesLibraries.utils
+    /*implementation googlesLibraries.databasess*/
+    /*implementation googlesLibraries.authdatabasess*/
+
+
+
+    //leak canary
+//    debugImplementation  leakcanary.leakcanary1
+//    releaseImplementation  leakcanary.leakcanary2
+//    testImplementation  leakcanary.leakcanary2
+
+
+    //navigation lib
+//    implementation navgiagteLibraries.navfrag
+//    implementation navgiagteLibraries.navui
+
+    //retrofit lib
+    implementation retrofittLibraries.retrofits
+    implementation retrofittLibraries.retrofitgson
+
+    //eventbus lib
+    implementation eventbusLibraries.eventbus
+
+    //constraint lib
+    implementation constraintLibraries.constraintla
+
+//    //lottie lib
+//    implementation lottieLibraries.lottie
+//    def lottieVersion = "3.4.0"
+//    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    implementation 'com.android.support:multidex:1.0.1'
+
+    //lottie permissioncheck
+    implementation permissionLibraries.permissioncheck
+
+    // bottomsheetdialog
+//    implementation bottomsheetLibraries.bottomsheet
+
+    // expandable
+//    implementation expandableLibraries.expandablelibb
+
+    //glide lib
+    implementation glideLibraries.glide
+
+    //Butterknife lib
+//    implementation butterknife.ButterKnife
+
+
+    //permission part
+    implementation permissionparthandle.locationpermissionop
+
+    //welcome coordinator
+//    implementation  WelcomeCoordinator.WelcomeCoordinatornew
+//    implementation  WelcomeCoordinator.coord
+
+//    //mqtt part
+//    implementation 'net.igenius:mqttservice:1.6.4'
+
+// kkia payment
+    implementation 'co.opensi.kkiapay:kkiapay:1.2.10'
+
+    //Xmpp part
+//    implementation  xmppdependencies.smacktcp
+//    implementation  xmppdependencies.smackexperimental
+//    implementation  xmppdependencies.smackandroid
+//    implementation  xmppdependencies.im
+
+
+
+//    implementation floatinggLibraries.floatingg
+
+    //auto crash
+    implementation autocrash.autocrashs
+
+    //chart screen
+    implementation chartdependiencies.chatrt
+
+
+    implementation libraryDependencies.AndroidAnnotations
+
+    // amazon s3bucket
+    implementation amazondetails.amazon1
+    implementation(amazondetails.amazon2) { transitive = true }
+    implementation(amazondetails.amazon3) { transitive = true }
+
+
+    androidTestCompile("com.android.support.test.espresso:espresso-core:2.2.2", {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.2'
+    implementation 'io.apisense:rhino-android:1.1.1'
+//    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+
+    implementation 'com.google.android.play:core:1.10.0'
+    implementation 'com.google.android.gms:play-services-vision:20.1.2'
+    implementation 'com.google.android.material:material:1.4.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:26.1.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:26.1.0'
+
+    implementation ('com.google.firebase:firebase-messaging:23.0.8')
+//    implementation 'com.google.firebase:firebase-inappmessaging-display:20.1.0'
+
+
+
+
+    implementation ('com.google.firebase:firebase-bom:30.3.2')
+//    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation ('com.google.firebase:firebase-iid:21.1.0')
+    implementation "com.google.firebase:firebase-iid:21.1.0"
+//    implementation "com..github.bumptech.glide:glide"
+//    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+    implementation 'com.google.android.gms:play-services-tagmanager:18.0.2'
+
+
+    implementation 'com.google.firebase:firebase-core:15.0.2'
+    implementation 'com.google.firebase:firebase-analytics:17.0.1'
+
+//    // Refresh page
+//    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+
+
+}
+apply plugin: 'com.google.gms.google-services'

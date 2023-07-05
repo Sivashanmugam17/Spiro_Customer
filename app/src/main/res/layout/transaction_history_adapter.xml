@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="#048B72"
+                android:paddingTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Vehicle"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="DF9909"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="500 XOF"
+                    android:gravity="end"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sfuidisplaybold"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+                <LinearLayout
+                    android:weightSum="3"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="OLD BATTERY"
+                        android:textColor="@color/grey_new"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="873BHG-CH30"
+                        android:textColor="@color/grey_new"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="@dimen/_40sdp"
+                            android:src="@drawable/transaction_history_icon"
+                            android:layout_height="@dimen/_40sdp">
+                        </ImageView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="NEW BATTERY"
+                            android:textColor="@color/grey_new"
+                            android:fontFamily="@font/sfuidisplaymedium"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_height="wrap_content">
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="UYJKOL-G898"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/sfuidisplaymedium"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_height="wrap_content">
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:background="@color/line_color"
+                    android:layout_height="1dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Driver"
+                            android:textColor="@color/grey_new"
+                            android:fontFamily="@font/sfuidisplaymedium"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_height="wrap_content">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Lome e-bike"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/sfuidisplaymedium"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_height="wrap_content">
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="end"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Swap Agent"
+                            android:textColor="@color/grey_new"
+                            android:fontFamily="@font/sfuidisplaymedium"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_height="wrap_content">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Acadia Abelard"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/sfuidisplaymedium"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_height="wrap_content">
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#DBDBDB"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="13-March-2022"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                    <TextView
+                        android:gravity="end"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:text="05:09 PM"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/sfuidisplaymedium"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
