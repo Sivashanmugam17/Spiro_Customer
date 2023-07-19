@@ -399,11 +399,13 @@ class registerpagewithotpthree : LocaleAwareCompatActivity()
                     var agent_name = resultsresponse.getString("driver_name")
                     var driver_phone = resultsresponse.getString("driver_phone")
                     var driver_vehicle = resultsresponse.getString("driver_vehicle")
+                   var  driver_model= resultsresponse.getString("driver_model")
 //                    var vdial_code =
                     mSessionManager.setdriver_profile_image(agent_image)
                     mSessionManager.setdriver_names(agent_name)
                     mSessionManager.setdriver_vehicle_news(driver_vehicle)
                     mSessionManager.setdriver_vehicle(driver_phone)
+                    mSessionManager. setdriver_model(driver_model)
 ////                    progress_lay_otp_page.visibility=View.GONE
 
                     val serviceClass = commonapifetchservice::class.java

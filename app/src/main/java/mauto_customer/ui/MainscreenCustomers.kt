@@ -1105,6 +1105,7 @@ class MainscreenCustomers : LocaleAwareCompatActivity(), OnMapReadyCallback,
 
         phone_textview.setText(mSessionManager.getdriver_vehicle())
         bike_number_textview.setText(mSessionManager.getdriver_vehicle_news())
+        veh_mod_das.setText(mSessionManager.getdriver_model())
         driverpath = mSessionManager.getdriver_profile_image()
 //        isList =  mSessionManager.getoffer_banner_image()
 
@@ -1465,7 +1466,7 @@ class MainscreenCustomers : LocaleAwareCompatActivity(), OnMapReadyCallback,
                             var vehicle_number = response_object_faq.getString("vehicle_number")
 
                             var vehicle_model = response_object_faq.getString("vehicle_model")
-                            veh_mod_das.setText(vehicle_model)
+//                            veh_mod_das.setText(vehicle_model)
                             Log.d("fagdfz","$vehicle_model")
                         }
 
@@ -1603,23 +1604,20 @@ class MainscreenCustomers : LocaleAwareCompatActivity(), OnMapReadyCallback,
         if (mSessionManager.getdriver_profile_image().isEmpty()) {
             getData()
             getappversion()
-
         }
-
-
         wakeLock.acquire()
-
-
         sliderHandler.postDelayed(sliderRunnable, 5000)
 
-//        if (AppUtils.isNetworkAvailable(mContext)) {
-//            nointernetconnectionlay1.visibility=View.GONE
-//
-//        }else{
-//
-//            nointernetconnectionlay1.visibility=View.VISIBLE
-//
-//        }
+
+
+        if (AppUtils.isNetworkAvailable(mContext)) {
+            nointernetconnectionlay1.visibility=View.GONE
+
+        }else{
+
+            nointernetconnectionlay1.visibility=View.VISIBLE
+            dashboardscrol.visibility=View.GONE
+        }
 
 
 //        if (mSessionManager.getmstage().equals("NOT_VERIFIED")){

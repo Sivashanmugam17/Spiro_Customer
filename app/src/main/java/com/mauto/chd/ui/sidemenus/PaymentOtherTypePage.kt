@@ -815,18 +815,6 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
                 val data =response.getJSONObject("data")
                 transaction_id =data.getString("transaction_id")
 
-
-//                val pay_load =data.getJSONObject("pay_load")
-//                val paylode_data = pay_load.getJSONObject("data")
-//                val transaction= paylode_data.getJSONObject("transaction")
-//                val sucessstaces = transaction.getString("status")
-//                val status_rut = pay_load.getJSONObject("status")
-//                if (sucessstaces.equals("Success")) {
-//                    ratingpage_lay.visibility=View.GONE
-//                    paymentSuccess()
-//                }else{
-//                    toast("please try again leatter")
-//                }
                 voucherFunpayment = voucherFunpayment()
                 val message=response.getString("message")
                 textView31.setText(message)

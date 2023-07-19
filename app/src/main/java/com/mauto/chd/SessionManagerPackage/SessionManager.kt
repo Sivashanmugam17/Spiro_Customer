@@ -252,7 +252,7 @@ class SessionManager(var mContext: Context)
     val dial_code = "dial_code"
     val driver_vehicle_new = "drivervehiclenew"
     val driver_vehicle = "agentphone"
-
+    val driver_model="drivermodel"
     val loginUserType = "loginUserType"
     val model_list = "model_list"
     val model_list2= "model_list2"
@@ -626,6 +626,14 @@ class SessionManager(var mContext: Context)
         mEditor.apply()
     }
 
+    fun setdriver_model(driver_model: String)
+    {
+        mEditor.putString(this.driver_model, driver_model)
+        mEditor.apply()
+    }
+    fun getdriver_model(): String {
+        return mSharedPreference.getString(driver_model, "")!!
+    }
     fun getdriver_vehicle(): String {
         return mSharedPreference.getString(driver_vehicle, "")!!
     }

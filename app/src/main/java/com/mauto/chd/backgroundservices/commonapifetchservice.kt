@@ -107,9 +107,6 @@ class commonapifetchservice : IntentService("ApiHit") {
                     lag_type="fr"
                 }
 
-
-
-
                 header.put("lang_code", lag_type)
                 header.put("type", "customer")
                 Log.d("checking22", header.toString())
